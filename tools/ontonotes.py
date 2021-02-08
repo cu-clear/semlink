@@ -1,6 +1,6 @@
-"""verbnetparser.py
+"""ontonotes.py
 
-Adaptation of the VerbNet xml parser, loads PropBank instead. This is designed to have as close to the same functionality
+Adaptation of the VerbNet xml parser, loads Ontonotes instead. This is designed to have as close to the same functionality
 so that programs can work with either resource as necessary
 """
 
@@ -62,10 +62,3 @@ class SenseGrouping():
             self.fn_mappings = mappings.find("fn").text.split(",")
 
         self.ID = file_lemma + "-" + soup.get("n")
-
-
-def test():
-    on = OntoNotesParser(directory="C:/Users/Kevin/PycharmProjects/lexical_resources/sense-inventories")
-
-if __name__ == '__main__':
-    test()

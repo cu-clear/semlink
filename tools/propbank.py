@@ -137,10 +137,3 @@ class PropBankRoleset(AbstractXML):
             return
 
 
-def test():
-    pbp = PropBankParser(directory="C:/Users/Kevin/PycharmProjects/propbank-frames/frames/", version="unified")
-    vn = verbnet.VerbNetParser(version="3.3")
-    pbp.find_verbnet_mapping_errors(vn)
-
-if __name__ == '__main__':
-    test()

@@ -213,11 +213,9 @@ class SemLinkAnnotation(Annotation):
 
     def writable(self):
         res = self.instance + " " + self.verb
-        #v, vnc, frame, pb, on, deps
         res += " " + self.vn_class if self.vn_class else " None"
         res += " " + self.fn_frame if self.fn_frame else " None"
         res += " " + self.pb_roleset if self.pb_roleset else " None"
         res += " " + self.on_group if self.on_group else " None"
         res += " " + " ".join(self.dependencies) if self.dependencies else " None"
-#        res += " " + self.source
         return res
