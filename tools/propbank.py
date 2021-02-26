@@ -27,6 +27,14 @@ class PropBankParser(object):
         fnames = [f for f in os.listdir(PROPBANK_PATH) if f.endswith(".xml")]
         self.filenames = [os.path.join(PROPBANK_PATH, fname) for fname in fnames]
         self.version = version
+        self.vn2pb = json.load(open("../mappings/vn2pb.json"))
+        self.pb2vn = {}
+        for key in self.vn2pb:
+            for value in self.vn2pb[key]:
+                if value not in self.pb2vn:
+                    self.pb2vn[value] = []
+                self.pb2vn[value].append(key)
+
         self.parsed_files = self.parse_files()
         self.frame_dict = {}
         self.rolesets = {}
@@ -44,25 +52,33 @@ class PropBankParser(object):
             parsed_files.append(bs4.BeautifulSoup(open(fname, encoding="utf-8"), "lxml-xml"))
         return parsed_files
 
-    def find_verbnet_mapping_errors(self, verbnet):
+    def get_pb_vn_mappings(self, verbnet):
         vn_members = [member.name for member in verbnet.get_members()]
+        res = {}
         for roleset in self.rolesets:
-            if roleset in pb2vn_json:
-                print ("roleset found in mapping file;;" + roleset + ";;" + pb2vn_json[roleset])
             if not self.rolesets[roleset].vnc:
-                if roleset.split(".")[0] in vn_members:
+                if roleset in self.pb2vn:
+                    print("roleset found in mapping file;;" + roleset + str(self.pb2vn[roleset]))
+                    self.rolesets[roleset].vnc = ["-".join(vnc.split("-")[1:]) for vnc in self.pb2vn[roleset]]
+                elif roleset.split(".")[0] in vn_members:
                     print ("no vn mapping, but it's in verbnet;;" + roleset)
             for vnc in self.rolesets[roleset].vnc:
                 new_c = verbnet.find_correct_subclass(vnc, roleset.split(".")[0])
                 if not new_c:
                     print ("class not found;;" + roleset + ";;" + vnc)
                 elif new_c == vnc:
+                    res[roleset] = vnc
                     print ("class is good;;" + roleset + ";;" + vnc)
                 else:
+                    res[roleset] = new_c
                     print ("class/member found, update;;" + roleset + ";;" + vnc + ";;" + new_c)
 
-        return []
+        return res
 
+
+    def write_pb_vn_mappings(self, verbnet):
+        mapping_dict = self.get_pb_vn_mappings(verbnet)
+        print (mapping_dict)
 
 class AbstractXML(object):
     """Abstract class to be inherited by other classes that share the same
@@ -137,3 +153,9 @@ class PropBankRoleset(AbstractXML):
             return
 
 
+if __name__ == "__main__":
+    vn = verbnet.VerbNetParser(directory="../lexical_resources/verbnet-master/verbnet-master/verbnet3.4/")
+    pb = PropBankParser(directory="../lexical_resources/propbank-frames-master/frames/")
+
+    res = pb.get_pb_vn_mappings(vn)
+    json.dump(res, open("../mappings/pb-vn3.4.json", "w"))

@@ -48,7 +48,7 @@ class Mapping():
         return hash(self.member) * hash(self.vn_class) * hash(self.fn_frame)
 
     def as_xml(self):
-        out_node = etree.Element("vncls", attrib={"class":self.vn_class, "fnframe":self.fn_frame, "vnmember":self.member, "versionID":"vn3.3"})
+        out_node = etree.Element("vncls", attrib={"class":self.vn_class, "fnframe":self.fn_frame, "vnmember":self.member})
         return out_node
 
     def verify(self):
@@ -109,8 +109,9 @@ def load_element_mappings(mapping_file, to_dict=True):
 
     return mappings
 
+
 def write_mappings(mappings, output_file):
-    root = etree.Element('verbnet-framenet_MappingData', attrib={"date": str(datetime.datetime)})
+    root = etree.Element('verbnet-framenet_MappingData', attrib={"date": datetime.datetime.strftime("%d:%M%:%Y"), "versionID":"vn3.3"})
 
     for m in sorted(list(mappings)):
         root.append(m.as_xml())
@@ -129,9 +130,11 @@ def combine_old_and_fixed():
         old_maps.add(m)
     write_mappings(old_maps, "vn-fn2.s")
 
+
 def test():
     load_element_mappings("C:/Users/Kevin/PycharmProjects/lexical_resources/semlink/1.2.2c/vn-fn/VN-FNRoleMapping.txt")
     return
+
 
 if __name__ == "__main__":
     test()
