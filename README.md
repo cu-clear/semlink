@@ -23,7 +23,7 @@ The <code>semlink2</code> folder contains the final annotated instances (<code>s
 
 The remaining directories are used to build and validate the SemLink 2 version from their respective resources.
 
-#Examples
+# Examples
 Loading mapping files
 
 ```python
@@ -33,7 +33,7 @@ pb_vn_mappings = json.load(open("instances/pb-vn2.json"))
 vn_fn_mappings = json.load(open("instances/vn-fn2.json"))
 ```
 
-##Using PB-VN mappings
+## Using PB-VN mappings
 To find which VerbNet senses a roleset in PB maps to:
 
 ```python
@@ -49,7 +49,7 @@ for vn_mapping in vn_mappings:
     vn_class, arg_mappings = vn_mapping["vnclass"], vn_mappings["args"]
 ```
 
-##Using VN-FN mappings
+## Using VN-FN mappings
 To find which FrameNet frames a particular verb sense in VN belongs to:
 ```python
 verb, vn_class = "shake", "26.5"
@@ -85,7 +85,7 @@ These are lists of tuples containing the PB arg (ARG0, ARG1), etc, and their map
 Moving to FrameNet frame arguments requires again moving through VerbNet. We are currently (22.03.2021) in the process of providing updated mappings from VN roles to FN arguments.
 
 
-##Loading annotated instances
+## Loading annotated instances
 This can be done using annotation.py tool
 
 ```python
@@ -96,12 +96,12 @@ for line in open(instances/semlink-2).readlines():
     instances.append(annotation.SemLinkAnnotation(line))
 ```
 
-##Generating a new SemLink
+## Generating a new SemLink
 This can be done using the SemLink.py script. It needs to be provided a number of resources: VerbNet, PropBank, and Ontonotes Sense Groupings (FrameNet is handled via the NLTK api). These (and other additions) can be configured using config.py. Once configured, calling the script will attempt to build a set of instances validated against the provided resources.
 
 ```
 python SemLink.py
 ```
 
-##Other use cases
+## Other use cases
 Please feel free to leave an issue on the Github if you have other use cases you'd like to see. 
