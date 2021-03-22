@@ -136,7 +136,7 @@ def combine_old_and_fixed(output_file):
 
 def test():
     m = load_mappings(config.VN2FN_PATH, as_dict=True)
-    write_mappings(m, "../other_resources/vn-fn2.json", "json")
+    write_mappings(m, "../instances/vn-fn2.json", "json")
 
 if __name__ == "__main__":
     test()
