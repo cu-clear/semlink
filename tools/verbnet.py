@@ -9,6 +9,7 @@ verb frames.
 import os
 import bs4
 import re
+import config
 
 __author__ = ["Todd Curcuru & Marc Verhagen"]
 __date__ = "3/15/2016"
@@ -726,12 +727,7 @@ def search(verbclasslist, pred_type=None, themroles=None, synroles=None, semrole
 
 
 def test():
-    vnp = VerbNetParser(directory="C:/Users/Kevin/PycharmProjects/lexical_resources/verbnet_svn/")
-
-    for v in vnp.get_members():
-        print(v)
-        pass
+    vnp = VerbNetParser(directory=config.VN_RESOURCE_PATH)
 
 if __name__ == '__main__':
-
     test()

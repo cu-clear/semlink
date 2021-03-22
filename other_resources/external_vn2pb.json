@@ -1,0 +1,4927 @@
+{
+    "change_bodily_state-40.8.4": [
+        "sicken.01"
+    ],
+    "turn-26.6.1": [
+        "alter.01",
+        "transform.01"
+    ],
+    "turn-26.6.1-1": [
+        "change.01",
+        "transform.01",
+        "convert.01",
+        "alter.01",
+        "turn.01"
+    ],
+    "bully-59.5": [
+        "panic.01",
+        "harass.01",
+        "bully.01",
+        "shock.01",
+        "tease.02",
+        "frighten.01"
+    ],
+    "split-23.2": [
+        "pull.01",
+        "draw.02",
+        "roll.01",
+        "cut.01",
+        "push.01",
+        "shove.01",
+        "split.01",
+        "slip.01",
+        "snap.05",
+        "knock.01",
+        "yank.01",
+        "blow.01",
+        "break.01",
+        "kick.01",
+        "rip.01",
+        "tear.01",
+        "hack.01"
+    ],
+    "meet-36.3": [],
+    "meet-36.3-1": [
+        "meet.03",
+        "consult.01",
+        "play.01",
+        "visit.01"
+    ],
+    "meet-36.3-2": [
+        "battle.01",
+        "debate.01",
+        "fight.01"
+    ],
+    "seem-109": [
+        "sound.01",
+        "keep.02",
+        "smell.02",
+        "taste.02"
+    ],
+    "seem-109-1": [
+        "sound.01",
+        "keep.02",
+        "smell.02",
+        "taste.02"
+    ],
+    "seem-109-1-1": [
+        "sound.01",
+        "look.02",
+        "stay.01",
+        "taste.02",
+        "remain.01",
+        "smell.02",
+        "feel.01",
+        "be.01",
+        "keep.02"
+    ],
+    "seem-109-1-1-1": [
+        "sound.01",
+        "taste.02",
+        "smell.02",
+        "appear.02",
+        "seem.01",
+        "keep.02"
+    ],
+    "risk-94": [
+        "bet.01",
+        "gamble.01",
+        "venture.01"
+    ],
+    "risk-94-1": [
+        "bet.01",
+        "gamble.01",
+        "chance.01",
+        "risk.01",
+        "venture.01"
+    ],
+    "drive-11.5": [
+        "drive.01",
+        "wheel.01"
+    ],
+    "drive-11.5-1": [
+        "drive.01",
+        "fly.01",
+        "ferry.01",
+        "wheel.01"
+    ],
+    "act-114": [
+        "make.LV",
+        "fulfill.01",
+        "cause.01",
+        "conduct.01",
+        "execute.02",
+        "engage.01",
+        "carry_out.03"
+    ],
+    "act-114-1": [
+        "make.LV",
+        "fulfill.01",
+        "perform.01",
+        "cause.01",
+        "conduct.01",
+        "execute.02",
+        "do.02",
+        "engage.01",
+        "carry_out.03"
+    ],
+    "act-114-1-1": [
+        "move.01",
+        "make.LV",
+        "fulfill.01",
+        "cause.01",
+        "conduct.01",
+        "act.02",
+        "execute.02",
+        "engage.01",
+        "carry_out.03"
+    ],
+    "advise-37.9": [
+        "notify.01",
+        "educate.01",
+        "assure.01",
+        "alert.01",
+        "encourage.01"
+    ],
+    "advise-37.9-1": [
+        "notify.01",
+        "educate.01",
+        "assure.01",
+        "instruct.01",
+        "warn.01",
+        "alert.01",
+        "encourage.01",
+        "counsel.01",
+        "admonish.01",
+        "caution.01",
+        "advise.01"
+    ],
+    "pronounce-29.3.1": [
+        "say.01",
+        "pronounce.01"
+    ],
+    "care-88.1": [
+        "mind.01"
+    ],
+    "care-88.1-1": [
+        "care.01",
+        "worry.02",
+        "wonder.01",
+        "mind.01"
+    ],
+    "knead-26.5": [
+        "whip.01",
+        "shake.01",
+        "twist.01",
+        "squeeze.01",
+        "collect.01",
+        "compress.01",
+        "work.01",
+        "fold.03",
+        "melt.01",
+        "bend.01",
+        "distort.01"
+    ],
+    "remedy-45.7": [
+        "obscure.01",
+        "wet.01",
+        "correct.01",
+        "light.04",
+        "publicize.01",
+        "fertilize.01",
+        "invert.01",
+        "fortify.01",
+        "silence.01",
+        "raise.01",
+        "construct.01",
+        "sterilize.01",
+        "enhance.01"
+    ],
+    "remedy-45.7-1": [
+        "obscure.01",
+        "wet.01",
+        "correct.01",
+        "light.04",
+        "publicize.01",
+        "fertilize.01",
+        "invert.01",
+        "fortify.01",
+        "silence.01",
+        "magnify.01",
+        "lighten.01",
+        "raise.01",
+        "construct.01",
+        "sterilize.01",
+        "enhance.01"
+    ],
+    "steal-10.5": [
+        "milk.01",
+        "liberate.01",
+        "lift.02",
+        "seize.01",
+        "rob.01",
+        "abduct.01",
+        "bleed.01",
+        "rescue.01",
+        "extort.01",
+        "recoup.01",
+        "kidnap.01",
+        "take.01",
+        "reclaim.01",
+        "confiscate.01"
+    ],
+    "steal-10.5-1": [
+        "capture.01",
+        "rob.01",
+        "abduct.01",
+        "reclaim.01",
+        "bleed.01",
+        "snatch.01",
+        "steal.01",
+        "salvage.01",
+        "seize.01",
+        "sneak.01",
+        "extort.01",
+        "kidnap.01",
+        "take.01",
+        "cop.01",
+        "grab.01",
+        "milk.01",
+        "liberate.01",
+        "lift.02",
+        "rescue.01",
+        "recoup.01",
+        "confiscate.01"
+    ],
+    "calibratable_cos-45.6.1": [
+        "build.02"
+    ],
+    "calibratable_cos-45.6.1-1": [
+        "skyrocket.01",
+        "slip.01",
+        "dive.02",
+        "swell.01",
+        "mushroom.01",
+        "build.02",
+        "rise.01",
+        "drop.01",
+        "dip.01",
+        "decline.01",
+        "fluctuate.01",
+        "soar.01",
+        "surge.01",
+        "plummet.01",
+        "depreciate.01",
+        "climb.02",
+        "grow.01",
+        "fall.01",
+        "retreat.02",
+        "slide.02",
+        "go.02",
+        "jump.01",
+        "explode.02",
+        "swing.01",
+        "plunge.01",
+        "appreciate.01",
+        "gain.01",
+        "tumble.01"
+    ],
+    "fill-9.8": [
+        "endow.01",
+        "taint.01",
+        "infect.01",
+        "clog.02",
+        "inject.01",
+        "contaminate.01",
+        "flood.01",
+        "bombard.01",
+        "ring.02",
+        "close.03",
+        "lash.01",
+        "choke.01",
+        "embellish.01",
+        "blockade.01",
+        "dot.01",
+        "staff.01",
+        "enrich.01",
+        "mask.01",
+        "plug.04",
+        "imbue.01",
+        "infest.01",
+        "fill.01"
+    ],
+    "fill-9.8-1": [
+        "endow.01",
+        "taint.01",
+        "infect.01",
+        "clog.02",
+        "inject.01",
+        "stain.01",
+        "block.01",
+        "decorate.01",
+        "soak.01",
+        "contaminate.01",
+        "bathe.01",
+        "line.01",
+        "flood.01",
+        "pave.01",
+        "bombard.01",
+        "ring.02",
+        "close.03",
+        "cover.02",
+        "lash.01",
+        "choke.01",
+        "surround.01",
+        "embellish.01",
+        "blockade.01",
+        "dot.01",
+        "staff.01",
+        "deck.01",
+        "enrich.01",
+        "mask.01",
+        "plug.04",
+        "coat.01",
+        "imbue.01",
+        "infest.01",
+        "adorn.01",
+        "fill.01",
+        "saturate.01"
+    ],
+    "free-80": [
+        "ease.02",
+        "liberate.01",
+        "break.01",
+        "cleanse.01",
+        "discharge.101"
+    ],
+    "free-80-1": [
+        "ease.02",
+        "liberate.01",
+        "clear.01",
+        "free.01",
+        "acquit.01",
+        "cleanse.01",
+        "discharge.101",
+        "break.01"
+    ],
+    "free-80-1-1": [
+        "ease.02",
+        "liberate.01",
+        "break.01",
+        "cleanse.01",
+        "discharge.101",
+        "cure.01",
+        "purge.01",
+        "relieve.01"
+    ],
+    "meander-47.7": [
+        "cascade.01",
+        "cut.01",
+        "weave.02",
+        "wind.01",
+        "crawl.01",
+        "go.02",
+        "wander.01",
+        "stretch.01"
+    ],
+    "meander-47.7-1": [
+        "cascade.01",
+        "snake.01",
+        "cut.01",
+        "weave.02",
+        "twist.01",
+        "wind.01",
+        "run.04",
+        "converge.01",
+        "crawl.01",
+        "go.02",
+        "wander.01",
+        "stretch.01"
+    ],
+    "being_dressed-41.3.3": [],
+    "contribute-13.2": [
+        "restore.01",
+        "give.01",
+        "forgo.01",
+        "relinquish.01",
+        "refer.02",
+        "remit.01"
+    ],
+    "contribute-13.2-1": [
+        "restore.01",
+        "distribute.01",
+        "give.01",
+        "forgo.01",
+        "relinquish.01",
+        "refer.02",
+        "remit.01"
+    ],
+    "contribute-13.2-1-1": [
+        "submit.01",
+        "restore.01",
+        "contribute.01",
+        "give.01",
+        "surrender.01",
+        "forgo.01",
+        "relinquish.01",
+        "administer.01",
+        "refer.02",
+        "remit.01",
+        "donate.01",
+        "sacrifice.01"
+    ],
+    "contribute-13.2-2": [
+        "restore.01",
+        "extend.02",
+        "forgo.01",
+        "give.01",
+        "relinquish.01",
+        "transfer.01",
+        "refer.02",
+        "remit.01"
+    ],
+    "contribute-13.2-2-1": [
+        "reimburse.01",
+        "restore.01",
+        "give.01",
+        "forgo.01",
+        "relinquish.01",
+        "refer.02",
+        "remit.01"
+    ],
+    "matter-91": [
+        "count.04",
+        "matter.01"
+    ],
+    "pain-40.8.1": [
+        "kill.01",
+        "bother.01",
+        "hurt.01"
+    ],
+    "sound_emission-43.2": [
+        "explode.02",
+        "whistle.01",
+        "crackle.01",
+        "blare.01",
+        "beat.01",
+        "roar.02",
+        "buzz.01",
+        "ring.01",
+        "click.01",
+        "strike.01",
+        "snap.07",
+        "bang.02",
+        "splash.01",
+        "ping.01",
+        "boom.01",
+        "murmur.01",
+        "tick.01",
+        "wail.01"
+    ],
+    "appear-48.1.1": [
+        "appear.01",
+        "stem.01",
+        "emerge.01",
+        "break.13",
+        "rise.01",
+        "surge.01",
+        "open.01",
+        "come.01",
+        "develop.02",
+        "erupt.01",
+        "arise.02",
+        "flow.01",
+        "grow_up.04",
+        "stream.02",
+        "burst.01",
+        "steal.01",
+        "spread.02",
+        "materialize.01",
+        "derive.01",
+        "result.01",
+        "evolve.01",
+        "issue.01",
+        "form.02"
+    ],
+    "intend-61.2": [],
+    "intend-61.2-1": [
+        "mean.01"
+    ],
+    "intend-61.2-1-1": [
+        "intend.01"
+    ],
+    "amuse-31.1": [
+        "amuse.01",
+        "frustrate.01",
+        "baffle.01",
+        "disturb.01",
+        "appall.01",
+        "strike.01",
+        "anger.01",
+        "bother.01",
+        "convince.01",
+        "sting.01",
+        "stimulate.01",
+        "crush.01",
+        "frighten.01",
+        "torture.01",
+        "embarrass.01",
+        "delight.01",
+        "electrify.01",
+        "amaze.01",
+        "sicken.01",
+        "shake.01",
+        "depress.01",
+        "provoke.01",
+        "entice.01",
+        "harm.01",
+        "appease.01",
+        "afflict.01",
+        "obsess.01",
+        "intoxicate.01",
+        "transport.01",
+        "worry.02",
+        "plague.01",
+        "please.01",
+        "surprise.01",
+        "intimidate.01",
+        "menace.01",
+        "distract.01",
+        "relax.01",
+        "throw.01",
+        "alarm.01",
+        "comfort.01",
+        "enchant.01",
+        "charm.01",
+        "impress.01",
+        "divert.01",
+        "move.03",
+        "offend.01",
+        "kill.01",
+        "excite.01",
+        "haunt.01",
+        "stir_up.04",
+        "tempt.01",
+        "entertain.01",
+        "stun.01",
+        "preoccupy.01",
+        "harass.01",
+        "hurt.01",
+        "torment.01",
+        "upset.01",
+        "disappoint.01",
+        "irritate.01",
+        "reassure.01",
+        "exhaust.01",
+        "engage.01",
+        "touch.01",
+        "threaten.01",
+        "disarm.01",
+        "scare.01",
+        "occupy.01",
+        "puzzle.01",
+        "shock.01",
+        "calm.01",
+        "chill.01",
+        "spook.01",
+        "aggravate.01",
+        "relieve.01",
+        "galvanize.01",
+        "concern.01",
+        "disgust.01",
+        "intrigue.01",
+        "encourage.01",
+        "trouble.01",
+        "alienate.01",
+        "fascinate.01",
+        "inspire.01",
+        "cheer.01",
+        "tickle.01",
+        "interest.01",
+        "jolt.01",
+        "confuse.01",
+        "overwhelm.01",
+        "ruffle.02",
+        "discourage.01",
+        "satisfy.01",
+        "thrill.01"
+    ],
+    "curtsey-40.3.3": [
+        "bow.01",
+        "salute.01"
+    ],
+    "wipe_manner-10.4.1": [
+        "soak.01",
+        "distill.01",
+        "shave.01",
+        "unload.02",
+        "wring.01",
+        "strain.02",
+        "trim.02",
+        "purge.01",
+        "smooth.01",
+        "polish.01"
+    ],
+    "wipe_manner-10.4.1-1": [
+        "wash.01",
+        "distill.01",
+        "unload.02",
+        "scrub.01",
+        "rub.01",
+        "polish.01",
+        "pluck.01",
+        "lick.01",
+        "soak.01",
+        "wear_out.03",
+        "squeeze.01",
+        "wipe.01",
+        "rinse.01",
+        "sweep.01",
+        "purge.01",
+        "strain.02",
+        "dust_off.03",
+        "suck.01",
+        "erase.01",
+        "smooth.01",
+        "scratch.02",
+        "shave.01",
+        "strip.01",
+        "wring.01",
+        "trim.02"
+    ],
+    "cheat-10.6.1": [
+        "cheat.01"
+    ],
+    "cheat-10.6.1-1": [
+        "con.01",
+        "cheat.01",
+        "defraud.01"
+    ],
+    "cheat-10.6.1-1-1": [
+        "cheat.01",
+        "milk.01",
+        "strip.01",
+        "rob.01",
+        "bleed.01"
+    ],
+    "forbid-64.4": [
+        "keep.04"
+    ],
+    "forbid-64.4-1": [
+        "hamper.01",
+        "block.01",
+        "exclude.01",
+        "preclude.01",
+        "restrain.01",
+        "prohibit.01",
+        "stop.01",
+        "keep.04",
+        "inhibit.01",
+        "forbid.01",
+        "obstruct.01",
+        "bar.01",
+        "discourage.01",
+        "deter.01",
+        "hinder.01",
+        "ban.01",
+        "prevent.01",
+        "impede.01"
+    ],
+    "get-13.5.1": [
+        "pull.01",
+        "attain.01",
+        "take.01",
+        "catch.03",
+        "gather.01",
+        "win.01",
+        "reserve.01",
+        "rent.01",
+        "pick.01",
+        "buy.01",
+        "book.01",
+        "choose.01",
+        "phone.01",
+        "find.01",
+        "call.07",
+        "order.02",
+        "lease.01",
+        "hire.01",
+        "pluck.01"
+    ],
+    "get-13.5.1-1": [
+        "attain.01",
+        "gain.02",
+        "phone.01",
+        "call.07",
+        "lease.01",
+        "hire.01",
+        "earn.01",
+        "pluck.01",
+        "cash.01",
+        "catch.03",
+        "gather.01",
+        "save.03",
+        "book.01",
+        "pull.01",
+        "choose.01",
+        "fetch.01",
+        "secure.01",
+        "take.01",
+        "win.01",
+        "reserve.01",
+        "rent.01",
+        "get.01",
+        "pick.01",
+        "buy.01",
+        "find.01",
+        "order.02"
+    ],
+    "roll-51.3.1": [
+        "move.01",
+        "swing.01",
+        "roll.01",
+        "snake.01",
+        "twist.01",
+        "wind.01",
+        "float.01",
+        "revolve.06",
+        "glide.01",
+        "drift.01",
+        "bounce.01",
+        "slide.01",
+        "drop.01",
+        "turn.01",
+        "spin.01"
+    ],
+    "promote-102": [
+        "invite.01",
+        "boost.01",
+        "advance.01",
+        "promote.02",
+        "further.01",
+        "underscore.01",
+        "encourage.02",
+        "emphasize.01"
+    ],
+    "volunteer-95.4": [
+        "offer.01"
+    ],
+    "volunteer-95.4-1": [
+        "offer.01",
+        "enlist.01"
+    ],
+    "captain-29.8": [
+        "model.02",
+        "volunteer.01"
+    ],
+    "captain-29.8-1": [
+        "usher.02",
+        "volunteer.01",
+        "nurse.01",
+        "coach.01",
+        "sponsor.01",
+        "bully.01",
+        "host.01",
+        "escort.01",
+        "model.02",
+        "witness.01",
+        "guard.01",
+        "tailor.01"
+    ],
+    "captain-29.8-1-1": [
+        "model.02",
+        "star.01",
+        "volunteer.01"
+    ],
+    "render-29.90": [
+        "drive.02",
+        "leave.13"
+    ],
+    "render-29.90-1": [
+        "make.02",
+        "leave.13",
+        "drive.02"
+    ],
+    "render-29.90-2": [
+        "drive.02",
+        "get.03",
+        "leave.13"
+    ],
+    "focus-87.1": [
+        "dwell.01",
+        "center.01",
+        "contemplate.01",
+        "concentrate.01",
+        "converge.01",
+        "focus.01"
+    ],
+    "focus-87.1-1": [
+        "focus.01",
+        "dwell.01",
+        "center.01",
+        "concentrate.01",
+        "think.01",
+        "contemplate.01",
+        "reflect.02",
+        "converge.01",
+        "wonder.01",
+        "ponder.01"
+    ],
+    "touch-20": [],
+    "touch-20-1": [
+        "grip.01",
+        "stroke.01",
+        "touch.01",
+        "lick.01",
+        "pinch.03",
+        "squeeze.01",
+        "massage.01",
+        "wring.01",
+        "kiss.01",
+        "rub.01",
+        "grasp.01"
+    ],
+    "equip-13.4.2": [
+        "invest.01",
+        "charge.05"
+    ],
+    "equip-13.4.2-1": [
+        "reward.01",
+        "invest.01",
+        "equip.01",
+        "charge.05",
+        "arm.01",
+        "treat.02"
+    ],
+    "equip-13.4.2-1-1": [
+        "compensate.01",
+        "invest.01",
+        "charge.05",
+        "weigh.02"
+    ],
+    "cost-54.2": [
+        "cost.01",
+        "take.10",
+        "net.03",
+        "last.01",
+        "carry.01"
+    ],
+    "disfunction-105.2.2": [
+        "give_up.07",
+        "go.02",
+        "die.01",
+        "croak.01"
+    ],
+    "peer-30.3": [
+        "squint.01",
+        "glare.01",
+        "glance.01",
+        "stare.01",
+        "peer.01",
+        "listen.01",
+        "check.01",
+        "look.01"
+    ],
+    "berry-13.7": [
+        "log.03",
+        "whore.01",
+        "fish.01"
+    ],
+    "amalgamate-22.2": [],
+    "amalgamate-22.2-1": [
+        "integrate.01",
+        "match.01",
+        "couple.01",
+        "incorporate.02"
+    ],
+    "amalgamate-22.2-1-1": [
+        "consolidate.01"
+    ],
+    "amalgamate-22.2-2": [
+        "affiliate.01",
+        "team_up.02",
+        "confuse.01",
+        "total.01",
+        "integrate.01",
+        "compare.01",
+        "associate.01",
+        "pair.01",
+        "incorporate.02"
+    ],
+    "amalgamate-22.2-2-1": [
+        "coincide.01",
+        "unify.01",
+        "mate.02",
+        "unite.01",
+        "consolidate.01",
+        "contrast.01"
+    ],
+    "amalgamate-22.2-3": [
+        "oppose.01"
+    ],
+    "amalgamate-22.2-3-1": [
+        "introduce.02"
+    ],
+    "amalgamate-22.2-3-1-1": [
+        "marry.01"
+    ],
+    "amalgamate-22.2-3-2": [],
+    "flinch-40.5": [
+        "shrink.01",
+        "balk.01"
+    ],
+    "body_internal_states-40.6": [
+        "shiver.01",
+        "shake.01",
+        "convulse.01"
+    ],
+    "dress-41.1.1": [
+        "dress.01",
+        "change.01",
+        "exercise.02",
+        "wash.01",
+        "shower.01",
+        "shave.01",
+        "strip.01",
+        "clothe.01",
+        "bathe.01"
+    ],
+    "register-54.1": [],
+    "register-54.1-1": [],
+    "register-54.1-1-1": [
+        "total.01",
+        "register.01",
+        "measure.01",
+        "read.01",
+        "weigh.01"
+    ],
+    "bring-11.3": [
+        "take.01"
+    ],
+    "bring-11.3-1": [
+        "bring.01",
+        "take.01"
+    ],
+    "conjecture-29.5": [
+        "swear.01",
+        "admit.01",
+        "speculate.01",
+        "affirm.01",
+        "doubt.01",
+        "deny.01",
+        "determine.01",
+        "hold.01",
+        "assert.03"
+    ],
+    "conjecture-29.5-1": [
+        "swear.01",
+        "anticipate.01",
+        "presume.01",
+        "admit.01",
+        "assert.03",
+        "trust.02",
+        "speculate.01",
+        "expect.01",
+        "doubt.01",
+        "deny.01",
+        "infer.01",
+        "affirm.01",
+        "hold.01",
+        "foresee.01",
+        "determine.01",
+        "guess.01",
+        "foretell.01",
+        "believe.01"
+    ],
+    "conjecture-29.5-2": [
+        "swear.01",
+        "admit.01",
+        "speculate.01",
+        "feel.02",
+        "deny.01",
+        "doubt.01",
+        "affirm.01",
+        "hold.01",
+        "determine.01",
+        "assert.03"
+    ],
+    "representation-110.1": [
+        "mean.02",
+        "signify.01",
+        "be.01",
+        "represent.01"
+    ],
+    "interact-36.6": [
+        "hook_up.02",
+        "follow_up.03",
+        "split.01"
+    ],
+    "tingle-40.8.2": [
+        "pound.04",
+        "burn.01",
+        "split.01",
+        "reel.01",
+        "throb.01",
+        "ache.01",
+        "spin.01"
+    ],
+    "spend_time-104": [
+        "pass.03",
+        "spend.02",
+        "lead.02",
+        "use.01",
+        "waste.01",
+        "serve.04"
+    ],
+    "floss-41.2.1": [
+        "wash.01",
+        "brush.01",
+        "shave.01"
+    ],
+    "addict-96": [
+        "predispose.01"
+    ],
+    "birth-28.2": [
+        "reproduce.01"
+    ],
+    "birth-28.2-1": [
+        "get.01",
+        "have.03",
+        "reproduce.01",
+        "bring.01",
+        "deliver.01",
+        "generate.01",
+        "bear.02"
+    ],
+    "appeal-31.4": [],
+    "appeal-31.4-1": [],
+    "appeal-31.4-2": [],
+    "appeal-31.4-3": [
+        "appeal.03"
+    ],
+    "deprive-10.6.2": [
+        "deprive.01",
+        "divest.01",
+        "disarm.01",
+        "drain.01",
+        "rid.01"
+    ],
+    "ferret-35.6": [
+        "ferret_out.01"
+    ],
+    "admire-31.2": [
+        "support.01",
+        "suffer.01",
+        "resent.01",
+        "exalt.01",
+        "tolerate.01",
+        "respect.01",
+        "trust.02",
+        "value.02",
+        "appreciate.02",
+        "admire.01",
+        "miss.01",
+        "reaffirm.01",
+        "stand_up.07",
+        "worship.01",
+        "savor.01",
+        "favor.01",
+        "bear.01",
+        "mourn.01",
+        "believe.01"
+    ],
+    "admire-31.2-1": [
+        "support.01",
+        "enjoy.01",
+        "exalt.01",
+        "admire.01",
+        "reaffirm.01",
+        "stand_up.07",
+        "worship.01",
+        "savor.01",
+        "fear.01",
+        "love.01",
+        "mourn.01",
+        "respect.01",
+        "miss.01",
+        "like.02",
+        "trust.02",
+        "resent.01",
+        "appreciate.02",
+        "favor.01",
+        "bear.01",
+        "believe.01",
+        "suffer.01",
+        "tolerate.01",
+        "value.02",
+        "regret.01",
+        "hate.01"
+    ],
+    "dine-39.5": [
+        "graze.01",
+        "dine.01"
+    ],
+    "pit-10.7": [
+        "milk.01"
+    ],
+    "succeed-74": [],
+    "succeed-74-1": [
+        "succeed.01"
+    ],
+    "succeed-74-1-1": [
+        "manage.02"
+    ],
+    "succeed-74-2": [
+        "win.01"
+    ],
+    "succeed-74-3": [
+        "fall.01"
+    ],
+    "succeed-74-3-1": [
+        "lose.02"
+    ],
+    "succeed-74-3-1-1": [
+        "fail.01"
+    ],
+    "absorb-39.8": [
+        "take.01",
+        "absorb.01",
+        "ingest.01"
+    ],
+    "learn-14": [],
+    "learn-14-1": [
+        "read.01",
+        "study.01",
+        "learn.01",
+        "cram.02"
+    ],
+    "learn-14-2": [
+        "assimilate.01",
+        "absorb.01"
+    ],
+    "learn-14-2-1": [
+        "read.01",
+        "learn.01"
+    ],
+    "fulfilling-13.4.1": [
+        "leave.12",
+        "present.01",
+        "issue.01",
+        "trust.01"
+    ],
+    "fulfilling-13.4.1-1": [
+        "serve.02",
+        "entrust.01",
+        "leave.12",
+        "trust.01",
+        "credit.01",
+        "issue.01",
+        "present.01",
+        "furnish.01",
+        "supply.01"
+    ],
+    "fulfilling-13.4.1-2": [
+        "leave.12",
+        "trust.01",
+        "issue.01",
+        "present.01",
+        "provide.01"
+    ],
+    "nonverbal_expression-40.2": [
+        "whistle.01",
+        "glare.01",
+        "scoff.01",
+        "sigh.02",
+        "sniff.02",
+        "smile.01",
+        "beam.02",
+        "laugh.01"
+    ],
+    "groom-41.1.2": [],
+    "remove-10.1": [
+        "excise.01",
+        "draw.02",
+        "dismiss.01",
+        "discharge.01",
+        "eliminate.01",
+        "expel.01",
+        "eradicate.01",
+        "retract.01",
+        "abolish.01",
+        "disengage.01",
+        "cut.01",
+        "delete.01",
+        "separate.01",
+        "subtract.01",
+        "reap.01",
+        "pull.01",
+        "withdraw.01",
+        "extract.01",
+        "oust.01",
+        "remove.01",
+        "take.01",
+        "omit.01",
+        "eject.01",
+        "deduct.01",
+        "kill.01",
+        "strip.01",
+        "sever.01"
+    ],
+    "weather-57": [
+        "snow.01",
+        "clear.01",
+        "roar.02",
+        "shower.01",
+        "blow.01",
+        "pour.02",
+        "freeze.01"
+    ],
+    "judgment-33.1": [
+        "assault.01",
+        "blame.01",
+        "abuse.01"
+    ],
+    "judgment-33.1-1": [
+        "commend.01",
+        "recommend.01",
+        "abuse.01",
+        "denigrate.01",
+        "bless.01",
+        "glorify.01",
+        "assault.01",
+        "mock.01",
+        "forgive.01",
+        "salute.01",
+        "criticize.01",
+        "curse.01",
+        "reward.01",
+        "assail.01",
+        "welcome.01",
+        "belittle.01",
+        "honor.01",
+        "denounce.01",
+        "thank.01",
+        "greet.01",
+        "applaud.01",
+        "pardon.01",
+        "approve.01",
+        "blame.01",
+        "cite.01",
+        "condemn.01",
+        "celebrate.01",
+        "attack.01",
+        "excuse.01",
+        "congratulate.01",
+        "scold.01"
+    ],
+    "judgment-33.1-1-1": [
+        "abuse.01",
+        "praise.01",
+        "doubt.01",
+        "hail.02",
+        "assault.01",
+        "blame.01",
+        "judge.01"
+    ],
+    "entity_specific_modes_being-47.2": [
+        "burn.01",
+        "flow.01",
+        "bristle.01",
+        "bulge.01",
+        "rage.02"
+    ],
+    "invest-13.5.4": [
+        "speculate.01",
+        "buy.01"
+    ],
+    "invest-13.5.4-1": [
+        "invest.01",
+        "speculate.01",
+        "buy.01",
+        "put.03"
+    ],
+    "push-12": [
+        "heave.01"
+    ],
+    "push-12-1": [
+        "yank.01",
+        "heave.01",
+        "jerk.01",
+        "pull.01"
+    ],
+    "push-12-1-1": [
+        "press.01",
+        "squeeze.02",
+        "push.01",
+        "heave.01",
+        "thrust.01"
+    ],
+    "crane-40.3.2": [
+        "cross.01",
+        "knit.03",
+        "blow.01",
+        "flap.01",
+        "show.01",
+        "rub.01",
+        "close.01",
+        "flash.01",
+        "open.01",
+        "roll.01",
+        "beat.01",
+        "toss.01",
+        "grind.03",
+        "raise.01",
+        "stretch.01",
+        "shake.01",
+        "shuffle.02",
+        "turn_over.12",
+        "kick.01",
+        "wring.01",
+        "flex.01"
+    ],
+    "free-10.6.3": [
+        "ease.02",
+        "liberate.01",
+        "break.01",
+        "cleanse.01",
+        "discharge.101"
+    ],
+    "free-10.6.3-1": [
+        "ease.02",
+        "liberate.01",
+        "clear.01",
+        "free.01",
+        "acquit.01",
+        "cleanse.01",
+        "discharge.101",
+        "break.01"
+    ],
+    "free-10.6.3-1-1": [
+        "ease.02",
+        "liberate.01",
+        "break.01",
+        "cleanse.01",
+        "discharge.101",
+        "cure.01",
+        "purge.01",
+        "relieve.01"
+    ],
+    "wipe_instr-10.4.2": [
+        "filter.02"
+    ],
+    "wipe_instr-10.4.2-1": [
+        "filter.02",
+        "siphon.01",
+        "plow.01",
+        "brush.01",
+        "rake.01"
+    ],
+    "indicate-78": [
+        "anticipate.01",
+        "predict.01",
+        "imply.01"
+    ],
+    "indicate-78-1": [
+        "anticipate.01",
+        "say.01",
+        "indicate.01",
+        "imply.01",
+        "explain.01",
+        "predict.01"
+    ],
+    "indicate-78-1-1": [
+        "anticipate.01",
+        "establish.01",
+        "prove.01",
+        "demonstrate.01",
+        "confirm.01",
+        "imply.01",
+        "predict.01",
+        "suggest.01",
+        "show.01"
+    ],
+    "long-32.2": [],
+    "long-32.2-1": [
+        "pray.01",
+        "wish.01",
+        "die.01",
+        "crave.01",
+        "hope.01"
+    ],
+    "long-32.2-2": [],
+    "vehicle-51.4.1": [
+        "balloon.01",
+        "ferry.01"
+    ],
+    "vehicle-51.4.1-1": [
+        "cycle.01",
+        "ferry.01",
+        "balloon.01"
+    ],
+    "trick-59.2": [
+        "con.01",
+        "deceive.01",
+        "cheat.02",
+        "fool.01",
+        "mislead.01",
+        "trap.01",
+        "manipulate.02"
+    ],
+    "swarm-47.5.1": [],
+    "swarm-47.5.1-1": [
+        "swim.01",
+        "creep.01",
+        "crawl.01"
+    ],
+    "swarm-47.5.1-2": [],
+    "swarm-47.5.1-2-1": [
+        "abound.01"
+    ],
+    "dressing_well-41.3.2": [
+        "dress.01"
+    ],
+    "see-30.1": [
+        "tell.02"
+    ],
+    "see-30.1-1": [
+        "tell.02",
+        "smell.01",
+        "taste.02"
+    ],
+    "see-30.1-1-1": [
+        "see.01",
+        "feel.01",
+        "tell.02",
+        "detect.01",
+        "notice.01",
+        "sense.01"
+    ],
+    "see-30.1-1-1-1": [
+        "tell.02",
+        "hear.01"
+    ],
+    "cope-83": [
+        "deal.01"
+    ],
+    "cope-83-1": [
+        "cope.01",
+        "deal.01"
+    ],
+    "cope-83-1-1": [
+        "manage.02",
+        "deal.01"
+    ],
+    "cooking-45.3": [
+        "cook.01",
+        "fry.01",
+        "scald.01",
+        "bake.01",
+        "heat.01",
+        "boil.01",
+        "grill.01",
+        "simmer.01"
+    ],
+    "admit-64.3": [
+        "allow.01"
+    ],
+    "admit-64.3-1": [
+        "admit.02",
+        "allow.01",
+        "receive.01",
+        "welcome.01",
+        "include.01",
+        "permit.01"
+    ],
+    "orphan-29.7": [
+        "cripple.01",
+        "recruit.01",
+        "outlaw.01"
+    ],
+    "coil-9.6": [
+        "spin.01",
+        "roll_up.03"
+    ],
+    "coil-9.6-1": [
+        "swing.01",
+        "twist.01",
+        "hook_up.02",
+        "curl_up.02",
+        "spin.01",
+        "roll_up.03"
+    ],
+    "bulge-47.5.3": [
+        "bristle.01",
+        "bulge.01",
+        "seethe.01"
+    ],
+    "bump-18.4": [
+        "run.02",
+        "hit.01"
+    ],
+    "bump-18.4-1": [
+        "hit.01",
+        "ram.01",
+        "hammer.02",
+        "knock.01",
+        "smash.01",
+        "collide.01",
+        "strike.01",
+        "crash.01",
+        "bang.02",
+        "slam.02",
+        "slap.01",
+        "run.02",
+        "brush.01"
+    ],
+    "complain-37.8": [
+        "grumble.01",
+        "object.01",
+        "boast.01",
+        "complain.01"
+    ],
+    "eat-39.1": [],
+    "eat-39.1-1": [
+        "eat.01"
+    ],
+    "eat-39.1-2": [
+        "drink.01"
+    ],
+    "eat-39.1-3": [
+        "smoke.02",
+        "inject.01",
+        "use.01"
+    ],
+    "function-105.2.1": [
+        "run.01",
+        "go.02"
+    ],
+    "function-105.2.1-1": [
+        "perform.01",
+        "operate.01",
+        "work.01",
+        "function.01",
+        "run.01",
+        "go.02"
+    ],
+    "benefit-72.2": [
+        "benefit.01"
+    ],
+    "allow-64.1": [
+        "tolerate.01",
+        "approve.01",
+        "sanction.01"
+    ],
+    "allow-64.1-1": [
+        "sanction.01",
+        "allow.01",
+        "tolerate.01",
+        "approve.01",
+        "permit.01"
+    ],
+    "sustain-55.6": [
+        "hold.03",
+        "prolong.01",
+        "continue.02",
+        "sustain.01",
+        "maintain.01"
+    ],
+    "sustain-55.6-1": [
+        "hold.03",
+        "leave.12",
+        "prolong.01",
+        "continue.02",
+        "keep.01",
+        "sustain.01",
+        "maintain.01"
+    ],
+    "contiguous_location-47.8": [
+        "support.01",
+        "follow.02",
+        "rim.01",
+        "top.01",
+        "precede.01",
+        "cap.02",
+        "underlie.01",
+        "traverse.01",
+        "skirt.01",
+        "line.01",
+        "enclose.01",
+        "bridge.01",
+        "predate.01",
+        "forgo.01",
+        "ring.02",
+        "cover.02",
+        "hug.01",
+        "circle.02",
+        "surround.01",
+        "head.01",
+        "border.01",
+        "fill.01"
+    ],
+    "contiguous_location-47.8-1": [
+        "support.01",
+        "follow.02",
+        "cross.01",
+        "rim.01",
+        "top.01",
+        "precede.01",
+        "cap.02",
+        "underlie.01",
+        "traverse.01",
+        "skirt.01",
+        "line.01",
+        "enclose.01",
+        "bridge.01",
+        "touch.01",
+        "predate.01",
+        "forgo.01",
+        "meet.03",
+        "ring.02",
+        "cover.02",
+        "hug.01",
+        "circle.02",
+        "surround.01",
+        "head.01",
+        "border.01",
+        "fill.01"
+    ],
+    "contiguous_location-47.8-2": [
+        "support.01",
+        "follow.02",
+        "rim.01",
+        "top.01",
+        "precede.01",
+        "cap.02",
+        "underlie.01",
+        "traverse.01",
+        "skirt.01",
+        "line.01",
+        "enclose.01",
+        "bridge.01",
+        "predate.01",
+        "forgo.01",
+        "ring.02",
+        "cover.02",
+        "hug.01",
+        "circle.02",
+        "surround.01",
+        "head.01",
+        "border.01",
+        "fill.01"
+    ],
+    "caused_calibratable_cos-45.6.2": [
+        "cut.02"
+    ],
+    "caused_calibratable_cos-45.6.2-1": [
+        "cut.02",
+        "lower.05",
+        "balloon.02",
+        "increase.01",
+        "decrease.01",
+        "vary.01",
+        "diminish.01"
+    ],
+    "rear-26.2.2": [
+        "grow.03",
+        "nurture.01",
+        "raise.03"
+    ],
+    "rear-26.2.2-1": [
+        "grow.03",
+        "raise.03",
+        "cultivate.01",
+        "farm.01",
+        "nurture.01"
+    ],
+    "carve-21.2": [],
+    "carve-21.2-1": [
+        "flatten.01",
+        "smash.01",
+        "crush.01",
+        "grind_up.02",
+        "crumble.01",
+        "slice.01"
+    ],
+    "carve-21.2-2": [
+        "chop.01",
+        "drill.01",
+        "punch.01",
+        "mow.01",
+        "carve.02"
+    ],
+    "substitute-13.6.2": [
+        "substitute.01",
+        "switch.01",
+        "swap.01"
+    ],
+    "substitute-13.6.2-1": [
+        "substitute.01",
+        "switch.01",
+        "replace.01",
+        "swap.01"
+    ],
+    "light_emission-43.1": [
+        "flash.01",
+        "burn.01",
+        "gleam.01",
+        "glow.01",
+        "blink.01",
+        "shine.01"
+    ],
+    "withdraw-82": [],
+    "withdraw-82-1": [],
+    "withdraw-82-2": [],
+    "withdraw-82-3": [
+        "withdraw.01",
+        "retire.01",
+        "retreat.01"
+    ],
+    "battle-36.4": [
+        "argue.02",
+        "dispute.01",
+        "scrap.02",
+        "struggle.01",
+        "compete.01",
+        "contend.02"
+    ],
+    "battle-36.4-1": [
+        "battle.01",
+        "argue.02",
+        "debate.01",
+        "fight.01",
+        "dispute.01",
+        "scrap.02",
+        "wrestle.01",
+        "combat.01",
+        "struggle.01",
+        "compete.01",
+        "contend.02"
+    ],
+    "assuming_position-50": [
+        "flop.01",
+        "lean.01",
+        "hang.01",
+        "squat.01",
+        "slump.01",
+        "sit.01",
+        "stand.01",
+        "bow.02",
+        "rise.01",
+        "lie.07",
+        "bend.01"
+    ],
+    "limit-76": [
+        "restrain.01",
+        "confine.01",
+        "limit.01",
+        "restrict.01",
+        "reduce.01",
+        "constrain.01"
+    ],
+    "distinguish-23.5": [
+        "tell.02"
+    ],
+    "distinguish-23.5-1": [
+        "distinguish.01",
+        "tell.02",
+        "differentiate.01"
+    ],
+    "transcribe-25.4": [
+        "film.01",
+        "document.01",
+        "tape.02",
+        "copy.01",
+        "forge.01",
+        "televise.01",
+        "duplicate.01",
+        "tally.01",
+        "photograph.01",
+        "type.01",
+        "write.01",
+        "record.01",
+        "transcribe.01",
+        "chart.01"
+    ],
+    "promise-37.13": [
+        "assure.01",
+        "guarantee.01",
+        "promise.01"
+    ],
+    "suspect-81": [
+        "accuse.01",
+        "suspect.01",
+        "condemn.01"
+    ],
+    "breathe-40.1.2": [
+        "spit.01",
+        "bleed.01",
+        "drool.02"
+    ],
+    "breathe-40.1.2-1": [
+        "breathe.01",
+        "spit.01",
+        "cry.02",
+        "drool.02",
+        "bleed.01"
+    ],
+    "estimate-34.2": [
+        "put.03"
+    ],
+    "estimate-34.2-1": [
+        "estimate.01",
+        "gauge.01",
+        "assess.01",
+        "judge.01",
+        "guess.01",
+        "put.03"
+    ],
+    "defend-72.3": [
+        "speak.01",
+        "protect.01",
+        "insure.02",
+        "preserve.01",
+        "defend.01",
+        "safeguard.01",
+        "guard.01"
+    ],
+    "simple_dressing-41.3.1": [
+        "wear.01"
+    ],
+    "refrain-69": [
+        "refrain.01"
+    ],
+    "conduct-111.1": [
+        "give.01",
+        "head.01",
+        "conduct.01",
+        "host.01",
+        "hold.01",
+        "run.01"
+    ],
+    "cling-22.5": [
+        "adhere.02",
+        "cling.01"
+    ],
+    "inquire-37.1.2": [
+        "inquire.01",
+        "consult.01",
+        "ask.01"
+    ],
+    "cooperate-73.1": [],
+    "cooperate-73.1-1": [
+        "cooperate.01",
+        "join.01",
+        "collaborate.01"
+    ],
+    "cooperate-73.1-2": [
+        "participate.01"
+    ],
+    "cooperate-73.1-3": [
+        "work.01"
+    ],
+    "void-106": [
+        "nullify.01",
+        "invalidate.01",
+        "void.01"
+    ],
+    "funnel-9.3": [
+        "dip.02",
+        "scoop_up.02"
+    ],
+    "funnel-9.3-1": [
+        "channel.01",
+        "scoop_up.02",
+        "wipe.01",
+        "wring.01",
+        "dip.02",
+        "fit.06",
+        "rake.01"
+    ],
+    "funnel-9.3-1-1": [
+        "push.01",
+        "shake.01",
+        "squeeze.02",
+        "hammer.02",
+        "scoop_up.02",
+        "dump.01",
+        "bang.02",
+        "sweep.01",
+        "funnel.01",
+        "dip.02",
+        "pound.02"
+    ],
+    "price-54.4": [
+        "rate.01",
+        "value.01",
+        "estimate.01",
+        "gauge.01",
+        "assess.01",
+        "fix.03",
+        "peg.01",
+        "price.01"
+    ],
+    "hiccup-40.1.1": [],
+    "mix-22.1": [],
+    "mix-22.1-1": [
+        "consolidate.01"
+    ],
+    "mix-22.1-1-1": [
+        "combine.01",
+        "merge.01",
+        "fuse.01",
+        "mix.01",
+        "blend.01"
+    ],
+    "mix-22.1-2": [
+        "tie.01",
+        "add.01"
+    ],
+    "mix-22.1-2-1": [
+        "link.01",
+        "connect.01",
+        "rejoin.01",
+        "join.01",
+        "unite.01",
+        "pair.01"
+    ],
+    "own-100.1": [
+        "have.03",
+        "own.01",
+        "hold.02",
+        "possess.01"
+    ],
+    "herd-47.5.2": [
+        "accumulate.01",
+        "gather.01",
+        "mass.01",
+        "collect.01",
+        "convene.01",
+        "amass.01",
+        "group.01",
+        "assemble.02",
+        "flock.02",
+        "cluster.01"
+    ],
+    "wink-40.3.1": [
+        "squint.01",
+        "point_out.02",
+        "nod.01",
+        "wink.01",
+        "wave.01"
+    ],
+    "conspire-71": [
+        "conspire.01",
+        "ally.01",
+        "discriminate.02",
+        "collaborate.01",
+        "protest.01"
+    ],
+    "hit-18.1": [
+        "squelch.01",
+        "bang.02",
+        "dash.01"
+    ],
+    "hit-18.1-1": [
+        "hit.01",
+        "dash.01",
+        "pound.02",
+        "beat.01",
+        "hammer.02",
+        "squelch.01",
+        "knock.01",
+        "smash.01",
+        "strike.01",
+        "bang.02",
+        "slap.01",
+        "tap.01",
+        "kick.01",
+        "batter.01"
+    ],
+    "send-11.1": [
+        "convey.01",
+        "transfer.01",
+        "transport.01",
+        "drive.02",
+        "dispatch.01",
+        "shift.01",
+        "deliver.01",
+        "return.02"
+    ],
+    "send-11.1-1": [
+        "wire.01",
+        "send.01",
+        "mail.01",
+        "ship.01",
+        "transmit.01",
+        "convey.01",
+        "deliver.01",
+        "transfer.01",
+        "transport.01",
+        "drive.02",
+        "dispatch.01",
+        "pass.05",
+        "slip.02",
+        "sneak.01",
+        "shift.01",
+        "hand_over.02",
+        "return.02"
+    ],
+    "hurt-40.8.3": [],
+    "hurt-40.8.3-1": [],
+    "hurt-40.8.3-1-1": [
+        "turn.01",
+        "break.01",
+        "split.01"
+    ],
+    "hurt-40.8.3-2": [
+        "strain.01",
+        "injure.01",
+        "scald.01",
+        "cut.01",
+        "burn.01",
+        "scratch.02",
+        "hurt.01",
+        "bite.01"
+    ],
+    "beg-58.2": [
+        "request.01"
+    ],
+    "beg-58.2-1": [
+        "request.01"
+    ],
+    "beg-58.2-1-1": [
+        "beg.01",
+        "request.01"
+    ],
+    "ensure-99": [
+        "guarantee.01",
+        "assure.01",
+        "insure.01",
+        "ensure.01",
+        "secure.01",
+        "provide.01"
+    ],
+    "shake-22.3": [],
+    "shake-22.3-1": [
+        "mass.01",
+        "lump.01"
+    ],
+    "shake-22.3-1-1": [
+        "stir.01",
+        "fuse.01"
+    ],
+    "shake-22.3-2": [
+        "shake.01",
+        "cluster.01",
+        "gather.01",
+        "stick.01",
+        "collect.01",
+        "group.01",
+        "roll_up.03",
+        "pair.01"
+    ],
+    "shake-22.3-2-1": [
+        "bundle.01",
+        "package.01",
+        "weld.01",
+        "attach.01",
+        "secure.02",
+        "fasten.01",
+        "bind.01"
+    ],
+    "gobble-39.3": [],
+    "gobble-39.3-1": [],
+    "gobble-39.3-2": [],
+    "vehicle_path-51.4.3": [
+        "take.01",
+        "sail.01"
+    ],
+    "chew-39.2": [],
+    "chew-39.2-1": [
+        "nibble.01",
+        "pick_on.02",
+        "chew.01",
+        "lick.01"
+    ],
+    "chew-39.2-2": [
+        "suck.01"
+    ],
+    "rush-53.2": [
+        "hurry.01",
+        "hasten.01",
+        "rush.01"
+    ],
+    "pelt-17.2": [
+        "bombard.01",
+        "shell.02",
+        "shower.01"
+    ],
+    "reflexive_appearance-48.1.2": [
+        "suggest.01",
+        "expose.01",
+        "recommend.01",
+        "define.01",
+        "intrude.01",
+        "display.01",
+        "offer.01",
+        "exhibit.01",
+        "manifest.01",
+        "express.01",
+        "show.01",
+        "shape.01",
+        "declare.01",
+        "form.02",
+        "present.01",
+        "assert.03",
+        "pose.02"
+    ],
+    "order-58.3": [
+        "demand.01",
+        "mandate.01",
+        "declare.01",
+        "announce.01"
+    ],
+    "order-58.3-1": [
+        "require.01",
+        "order.01",
+        "authorize.01",
+        "announce.01",
+        "demand.01",
+        "declare.01",
+        "command.02",
+        "mandate.01",
+        "commission.01"
+    ],
+    "subjugate-42.3": [
+        "crush.01",
+        "conquer.01",
+        "walk.01",
+        "silence.01"
+    ],
+    "butter-9.9": [
+        "tag.01",
+        "poison.02",
+        "insulate.01",
+        "wax.01",
+        "crown.01",
+        "patch.01",
+        "label.01",
+        "water.01",
+        "fuel.01",
+        "polish.01",
+        "cap.02"
+    ],
+    "rob-10.6.4": [
+        "bleed.01",
+        "rob.01",
+        "milk.01",
+        "strip.01"
+    ],
+    "multiply-108": [
+        "add.02",
+        "tally.01",
+        "count.01"
+    ],
+    "multiply-108-1": [
+        "add.02",
+        "tally.01",
+        "count.01"
+    ],
+    "multiply-108-2": [
+        "add.02",
+        "extrapolate.01",
+        "deduct.01",
+        "tally.01",
+        "count.01"
+    ],
+    "multiply-108-3": [
+        "add.02",
+        "tally.01",
+        "count.01"
+    ],
+    "resign-10.11": [],
+    "resign-10.11-1": [
+        "resign.01",
+        "retire.01",
+        "withdraw.01"
+    ],
+    "resign-10.11-2": [
+        "depart.01",
+        "resign.01",
+        "vacate.01",
+        "leave.11",
+        "renounce.01",
+        "quit.01"
+    ],
+    "reciprocate-112": [
+        "return.02"
+    ],
+    "reciprocate-112-1": [
+        "answer.01",
+        "return.02"
+    ],
+    "keep-15.2": [
+        "hold.03",
+        "leave.12",
+        "stock.01",
+        "store.01",
+        "keep.04"
+    ],
+    "employment-95.3": [
+        "work.01"
+    ],
+    "let-64.2": [
+        "let.01"
+    ],
+    "body_motion-49.2": [],
+    "body_motion-49.2-1": [],
+    "body_motion-49.2-1-1": [
+        "reach.03"
+    ],
+    "substance_emission-43.4": [
+        "give_off.04"
+    ],
+    "substance_emission-43.4-1": [
+        "spill.01",
+        "give_off.04",
+        "radiate.01",
+        "drip.02",
+        "pour.01",
+        "shed.01",
+        "spew.01",
+        "leak.01",
+        "drool.02"
+    ],
+    "substance_emission-43.4-1-1": [
+        "bleed.01",
+        "give_off.04"
+    ],
+    "masquerade-29.6": [
+        "qualify.02",
+        "behave.01",
+        "function.01",
+        "count.01",
+        "rank.01"
+    ],
+    "masquerade-29.6-1": [
+        "qualify.02",
+        "behave.01",
+        "act.02",
+        "function.01",
+        "count.01",
+        "rank.01"
+    ],
+    "masquerade-29.6-2": [
+        "qualify.02",
+        "behave.01",
+        "serve.01",
+        "pose.01",
+        "function.01",
+        "count.01",
+        "rank.01"
+    ],
+    "image_impression-25.1": [
+        "mark.02",
+        "etch.01",
+        "paint.02",
+        "sign.02",
+        "stamp.01"
+    ],
+    "clear-10.3": [
+        "clean.01"
+    ],
+    "clear-10.3-1": [
+        "clear.01",
+        "drain.01",
+        "empty.01",
+        "clean.01"
+    ],
+    "involve-107.1": [
+        "include.01",
+        "engage.01",
+        "involve.01"
+    ],
+    "sound_existence-47.4": [
+        "echo.01",
+        "reverberate.01",
+        "sound.02"
+    ],
+    "talk-37.5": [
+        "talk.01",
+        "speak.01"
+    ],
+    "acquiesce-95.1": [
+        "defer.02",
+        "accede.01",
+        "fall.01",
+        "yield.02",
+        "bow.01",
+        "give_up.07"
+    ],
+    "acquiesce-95.1-1": [
+        "defer.02",
+        "submit.02",
+        "accede.01",
+        "fall.01",
+        "yield.02",
+        "bow.01",
+        "consent.01",
+        "give_up.07"
+    ],
+    "complete-55.2": [
+        "pull_off.03",
+        "achieve.01",
+        "accomplish.01"
+    ],
+    "complete-55.2-1": [
+        "discontinue.01",
+        "pull_off.03",
+        "achieve.01",
+        "accomplish.01",
+        "complete.01",
+        "quit.01"
+    ],
+    "poke-19": [
+        "stick.01",
+        "dig.01",
+        "poke.01",
+        "stab.01"
+    ],
+    "use-105.1": [
+        "employ.02",
+        "use.01",
+        "apply.02",
+        "work.01",
+        "run.01",
+        "utilize.01",
+        "exert.01",
+        "exploit.01"
+    ],
+    "appoint-29.1": [
+        "appoint.01",
+        "crown.01",
+        "mark.01",
+        "designate.01",
+        "upgrade.01",
+        "want.01",
+        "nominate.01",
+        "elect.01",
+        "install.01",
+        "proclaim.01",
+        "adopt.01"
+    ],
+    "compel-59.1": [
+        "induce.01",
+        "bribe.01",
+        "compel.01",
+        "sway.01",
+        "persuade.01",
+        "lead.03",
+        "convince.01",
+        "obligate.01",
+        "oblige.02",
+        "motivate.01",
+        "rush.01"
+    ],
+    "work-73.2": [
+        "slog.01",
+        "labor.01",
+        "work.01"
+    ],
+    "hold-15.1": [
+        "grip.01",
+        "grab.01",
+        "hold.03",
+        "clutch.01",
+        "seize.01",
+        "wield.01",
+        "handle.01",
+        "grasp.01"
+    ],
+    "destroy-44": [
+        "devastate.01",
+        "rack_up.01",
+        "smoke.01",
+        "destroy.01",
+        "shatter.01",
+        "waste.01",
+        "damage.01",
+        "ruin.01",
+        "wreck.01",
+        "undo.01",
+        "demolish.01"
+    ],
+    "stop-55.4": [
+        "cut.02",
+        "kill.01"
+    ],
+    "stop-55.4-1": [
+        "close.02",
+        "cut.02",
+        "lift.02",
+        "halt.01",
+        "repeat.01",
+        "terminate.01",
+        "kill.01"
+    ],
+    "stop-55.4-1-1": [
+        "cut.02",
+        "discontinue.01",
+        "stop.01",
+        "kill.01",
+        "end.01",
+        "cease.01",
+        "conclude.02",
+        "finish.01",
+        "quit.01"
+    ],
+    "occur-48.3": [
+        "fall.01"
+    ],
+    "occur-48.3-1": [
+        "pass.03",
+        "happen.01",
+        "develop.02",
+        "fall.01",
+        "befall.01",
+        "occur.01"
+    ],
+    "occur-48.3-2": [
+        "fall.01"
+    ],
+    "confine-92": [
+        "detain.01",
+        "imprison.01",
+        "jail.01"
+    ],
+    "confine-92-1": [
+        "imprison.01",
+        "confine.01",
+        "jail.01",
+        "detain.01",
+        "send.03"
+    ],
+    "lodge-46": [
+        "reside.01",
+        "live.01",
+        "stop.01",
+        "squat.02",
+        "dwell.01",
+        "settle.03",
+        "stay.01",
+        "camp_out.01",
+        "shelter.01",
+        "board.02",
+        "lodge.02"
+    ],
+    "concealment-16": [
+        "conceal.01",
+        "block.01",
+        "isolate.01",
+        "shelter.01",
+        "screen_out.02"
+    ],
+    "concealment-16-1": [
+        "conceal.01",
+        "block.01",
+        "isolate.01",
+        "hide.01",
+        "shelter.01",
+        "screen_out.02"
+    ],
+    "grow-26.2.1": [
+        "develop.02",
+        "evolve.01",
+        "mature.01",
+        "grow_up.04",
+        "hatch.01",
+        "generate.01"
+    ],
+    "calve-28.1": [
+        "spawn.01"
+    ],
+    "create-26.4": [
+        "form.01",
+        "concoct.01",
+        "produce.01",
+        "rebuild.01",
+        "manufacture.01",
+        "lay.01",
+        "synthesize.01",
+        "coin.01",
+        "model.01",
+        "fabricate.01",
+        "compute.01",
+        "create.01",
+        "construct.01",
+        "organize.01",
+        "derive.01",
+        "reorganize.01",
+        "formulate.01"
+    ],
+    "create-26.4-1": [
+        "form.01",
+        "concoct.01",
+        "draft.01",
+        "rebuild.01",
+        "synthesize.01",
+        "model.01",
+        "write.01",
+        "formulate.01",
+        "compose.02",
+        "invent.01",
+        "fabricate.01",
+        "construct.01",
+        "manufacture.01",
+        "lay.01",
+        "coin.01",
+        "compute.01",
+        "organize.01",
+        "derive.01",
+        "reorganize.01",
+        "create.01",
+        "produce.01"
+    ],
+    "create-26.4-1-1": [
+        "form.01",
+        "concoct.01",
+        "rebuild.01",
+        "synthesize.01",
+        "model.01",
+        "formulate.01",
+        "conjure_up.01",
+        "fabricate.01",
+        "construct.01",
+        "manufacture.01",
+        "lay.01",
+        "coin.01",
+        "compute.01",
+        "design.01",
+        "organize.01",
+        "derive.01",
+        "reorganize.01",
+        "dig.01",
+        "spin.03",
+        "paint.02",
+        "create.01",
+        "produce.01"
+    ],
+    "exhale-40.1.3": [],
+    "exhale-40.1.3-1": [],
+    "exhale-40.1.3-2": [
+        "inhale.01"
+    ],
+    "mine-10.9": [
+        "mine.01"
+    ],
+    "search-35.2": [
+        "shop.01",
+        "sift.01",
+        "watch.01",
+        "scour.02",
+        "patrol.01",
+        "dive.02",
+        "check.01",
+        "probe.01",
+        "excavate.01",
+        "comb.01",
+        "advertise.01",
+        "search.01"
+    ],
+    "devour-39.4": [
+        "devour.01",
+        "consume.01",
+        "ingest.01"
+    ],
+    "caring-75.2": [],
+    "caring-75.2-1": [
+        "wait.02",
+        "look_after.07",
+        "mind.02",
+        "manage.01"
+    ],
+    "caring-75.2-1-1": [
+        "tend.01",
+        "attend.01"
+    ],
+    "caring-75.2-2": [
+        "care.03",
+        "look_after.07"
+    ],
+    "correspond-36.1.1": [
+        "disagree.01",
+        "compromise.01",
+        "communicate.01",
+        "correspond.01",
+        "plot.01",
+        "negotiate.01",
+        "concur.01",
+        "collaborate.01",
+        "cooperate.01",
+        "differ.01"
+    ],
+    "correspond-36.1.1-1": [
+        "agree.01",
+        "disagree.01",
+        "compromise.01",
+        "communicate.01",
+        "correspond.01",
+        "plot.01",
+        "negotiate.01",
+        "concur.01",
+        "collaborate.01",
+        "cooperate.01",
+        "differ.01"
+    ],
+    "correspond-36.1.1-1-1": [
+        "disagree.01",
+        "argue.02",
+        "debate.01",
+        "compromise.01",
+        "communicate.01",
+        "correspond.01",
+        "plot.01",
+        "negotiate.01",
+        "concur.01",
+        "collaborate.01",
+        "cooperate.01",
+        "differ.01"
+    ],
+    "reach-51.8": [
+        "reach.01",
+        "hit.02",
+        "make.05"
+    ],
+    "smell_emission-43.3": [
+        "smell.02"
+    ],
+    "modes_of_being_with_motion-47.3": [
+        "hover.01",
+        "shake.01",
+        "sway.01",
+        "creep.01",
+        "wave.01",
+        "falter.01",
+        "float.01",
+        "revolve.06",
+        "throb.01",
+        "drift.01",
+        "bow.02",
+        "rock.01",
+        "stir_up.04",
+        "vibrate.01",
+        "flap.01",
+        "bob.01",
+        "dance.02"
+    ],
+    "coloring-24": [
+        "stain.01",
+        "paint.01"
+    ],
+    "characterize-29.2": [
+        "cast.02",
+        "bill.02",
+        "select.01",
+        "diagnose.01",
+        "certify.01",
+        "adopt.01",
+        "praise.01",
+        "hail.02",
+        "classify.01",
+        "rank.01",
+        "regard.01",
+        "perceive.01",
+        "detail.01",
+        "count.01",
+        "take.01",
+        "depict.01",
+        "paint.03",
+        "envision.01",
+        "treat.01"
+    ],
+    "characterize-29.2-1": [
+        "view.02",
+        "certify.01",
+        "conceive.01",
+        "perceive.01",
+        "characterize.01",
+        "select.01",
+        "rank.01",
+        "cast.02",
+        "bill.02",
+        "praise.01",
+        "envision.01",
+        "diagnose.01",
+        "count.01",
+        "classify.01",
+        "depict.01",
+        "adopt.01",
+        "treat.01",
+        "regard.01",
+        "detail.01",
+        "take.01",
+        "underestimate.01",
+        "hail.02",
+        "paint.03"
+    ],
+    "characterize-29.2-1-1": [
+        "define.01",
+        "describe.01",
+        "certify.01",
+        "perceive.01",
+        "select.01",
+        "rank.01",
+        "cast.02",
+        "bill.02",
+        "portray.01",
+        "accept.01",
+        "identify.01",
+        "praise.01",
+        "envision.01",
+        "diagnose.01",
+        "count.01",
+        "classify.01",
+        "depict.01",
+        "treat.01",
+        "adopt.01",
+        "regard.01",
+        "detail.01",
+        "imagine.01",
+        "remember.01",
+        "take.01",
+        "hail.02",
+        "visualize.01",
+        "paint.03"
+    ],
+    "characterize-29.2-1-2": [
+        "certify.01",
+        "reveal.01",
+        "perceive.01",
+        "select.01",
+        "rank.01",
+        "cast.02",
+        "bill.02",
+        "praise.01",
+        "classify.01",
+        "diagnose.01",
+        "count.01",
+        "report.01",
+        "envision.01",
+        "depict.01",
+        "adopt.01",
+        "treat.01",
+        "regard.01",
+        "detail.01",
+        "take.01",
+        "hail.02",
+        "paint.03"
+    ],
+    "carry-11.4": [
+        "draw.02",
+        "haul.01",
+        "yank.01",
+        "drag.01",
+        "run.02",
+        "carry.01",
+        "pull.01"
+    ],
+    "carry-11.4-1": [
+        "draw.02",
+        "haul.01",
+        "yank.01",
+        "drag.01",
+        "run.02",
+        "carry.01",
+        "pull.01"
+    ],
+    "carry-11.4-1-1": [
+        "pull.01",
+        "draw.02",
+        "push.01",
+        "shove.01",
+        "haul.01",
+        "heave.01",
+        "yank.01",
+        "drag.01",
+        "thrust.01",
+        "run.02",
+        "carry.01",
+        "kick.01"
+    ],
+    "continue-55.3": [
+        "continue.01"
+    ],
+    "stalk-35.3": [
+        "track.01",
+        "smell.01",
+        "stalk.02",
+        "taste.01"
+    ],
+    "illustrate-25.3": [
+        "tag.01",
+        "illustrate.01",
+        "decorate.01",
+        "address.01",
+        "date.01",
+        "adorn.01",
+        "label.01",
+        "embellish.01"
+    ],
+    "confess-37.10": [
+        "admit.01",
+        "reveal.01",
+        "acknowledge.01",
+        "confess.01",
+        "proclaim.01"
+    ],
+    "sight-30.2": [
+        "spy.01",
+        "recognize.01",
+        "note.01",
+        "discover.01",
+        "spot.01",
+        "witness.01",
+        "savor.01",
+        "observe.01",
+        "experience.01",
+        "view.01"
+    ],
+    "spank-18.3": [
+        "thrash.01",
+        "whip.01",
+        "club.01",
+        "clobber.01",
+        "slam.02"
+    ],
+    "patent-101": [
+        "register.02",
+        "license.01",
+        "patent.01",
+        "certify.01",
+        "verify.01",
+        "imitate.01",
+        "impersonate.01"
+    ],
+    "bend-45.2": [
+        "fold.03",
+        "bend.01",
+        "furrow.01"
+    ],
+    "encounter-30.5": [],
+    "establish-55.5": [
+        "bring.01",
+        "stage.01"
+    ],
+    "establish-55.5-1": [
+        "institute.01",
+        "initiate.01",
+        "plant.01",
+        "establish.01",
+        "found.01",
+        "open.01",
+        "devise.01",
+        "mount.01",
+        "launch.01",
+        "originate.01",
+        "set.02",
+        "arrange.01",
+        "organize.01",
+        "prepare.01",
+        "bring.01",
+        "stage.01"
+    ],
+    "spatial_configuration-47.6": [
+        "hover.01",
+        "lean.01",
+        "squat.01",
+        "slump.01",
+        "bow.02",
+        "rise.01",
+        "lie.07",
+        "sag.01",
+        "loom.01"
+    ],
+    "spatial_configuration-47.6-1": [
+        "flop.01",
+        "fly.01",
+        "hang.01",
+        "hover.01",
+        "lean.01",
+        "sag.01",
+        "squat.01",
+        "slump.01",
+        "rest.01",
+        "sit.01",
+        "stand.01",
+        "bow.02",
+        "rise.01",
+        "lie.07",
+        "loom.01",
+        "bend.01",
+        "tilt.01"
+    ],
+    "neglect-75.1": [
+        "forgo.01",
+        "leave_out.03",
+        "ignore.01",
+        "disregard.01",
+        "overlook.01"
+    ],
+    "neglect-75.1-1": [
+        "neglect.01",
+        "fail.01",
+        "forgo.01",
+        "leave_out.03",
+        "ignore.01",
+        "disregard.01",
+        "overlook.01"
+    ],
+    "spray-9.7": [
+        "overload.01"
+    ],
+    "spray-9.7-1": [
+        "scatter.01",
+        "hang.01",
+        "brush.01",
+        "sow.01",
+        "spread.02",
+        "stick.01",
+        "wrap.01",
+        "shower.01",
+        "string.01",
+        "sprinkle.01",
+        "splash.01",
+        "pump.01",
+        "overload.01",
+        "rub.01",
+        "spray.01"
+    ],
+    "spray-9.7-1-1": [
+        "crowd.01",
+        "jam.01",
+        "pack.01",
+        "cram.01",
+        "pile.01",
+        "overload.01"
+    ],
+    "spray-9.7-2": [
+        "plant.01",
+        "drape.01",
+        "heap.01",
+        "stock.01",
+        "load.01",
+        "stack.01",
+        "overload.01",
+        "stuff.01"
+    ],
+    "investigate-35.4": [
+        "examine.01",
+        "inspect.01",
+        "tour.01",
+        "scrutinize.01",
+        "explore.01",
+        "monitor.01",
+        "survey.01",
+        "raid.01",
+        "scan.01",
+        "observe.01",
+        "investigate.01",
+        "tap.03",
+        "test.01"
+    ],
+    "slide-11.2": [
+        "move.01"
+    ],
+    "slide-11.2-1": [
+        "move.01",
+        "roll.01",
+        "float.01",
+        "bounce.01",
+        "slide.01"
+    ],
+    "support-15.3": [
+        "hold.01"
+    ],
+    "support-15.3-1": [
+        "hold.03",
+        "boost.01",
+        "support.01",
+        "strengthen.01",
+        "reinforce.01",
+        "bolster.01",
+        "buoy.01",
+        "hold.01"
+    ],
+    "attend-107.4": [],
+    "attend-107.4-1": [
+        "attend.01",
+        "patronize.01"
+    ],
+    "attend-107.4-2": [
+        "go.02",
+        "belong.01"
+    ],
+    "pour-9.5": [
+        "spill.01",
+        "drip.02",
+        "pour.01",
+        "spew.01",
+        "dribble.01"
+    ],
+    "lure-59.3": [
+        "draw.02",
+        "talk.02",
+        "win.01",
+        "entice.01",
+        "seduce.01",
+        "lure.01"
+    ],
+    "marry-36.2": [
+        "court.01",
+        "date.02",
+        "marry.01",
+        "kiss.01",
+        "hug.01",
+        "divorce.01"
+    ],
+    "adjust-26.9": [
+        "adjust.01",
+        "assimilate.01",
+        "accommodate.01",
+        "conform.01",
+        "fit.06",
+        "gear.01",
+        "adapt.01"
+    ],
+    "base-97.1": [
+        "build.01",
+        "establish.01",
+        "base.02",
+        "ground.01"
+    ],
+    "suffocate-40.7": [
+        "choke_up.04"
+    ],
+    "linger-53.1": [
+        "linger.01",
+        "hesitate.01",
+        "pause.01"
+    ],
+    "linger-53.1-1": [
+        "hesitate.01",
+        "pause.01",
+        "delay.01",
+        "stall.01",
+        "linger.01"
+    ],
+    "try-61.1": [
+        "try.01",
+        "intend.01",
+        "attempt.01"
+    ],
+    "build-26.1": [
+        "cast.02",
+        "cook.01",
+        "erect.01",
+        "forge.02",
+        "bake.01",
+        "develop.02",
+        "hammer.02",
+        "grow.03",
+        "knit.01",
+        "arrange.01",
+        "compile.01",
+        "weave.01",
+        "grind.01",
+        "fashion.01",
+        "assemble.02",
+        "fold.03",
+        "roll_up.03",
+        "hack.01",
+        "spin.03"
+    ],
+    "build-26.1-1": [
+        "make.01",
+        "cook.01",
+        "erect.01",
+        "forge.02",
+        "bake.01",
+        "hammer.02",
+        "carve.02",
+        "fold.03",
+        "cast.02",
+        "build.01",
+        "cut.01",
+        "develop.02",
+        "grow.03",
+        "compile.01",
+        "weave.01",
+        "grind.01",
+        "assemble.02",
+        "roll_up.03",
+        "shape.01",
+        "fashion.01",
+        "hack.01",
+        "spin.03",
+        "knit.01",
+        "arrange.01"
+    ],
+    "dedicate-79": [
+        "devote.01",
+        "commit.01",
+        "dedicate.01"
+    ],
+    "reject-77.2": [],
+    "reject-77.2-1": [
+        "discourage.01"
+    ],
+    "prosecute-33.2": [
+        "report.01",
+        "bust.02",
+        "nab.01"
+    ],
+    "prosecute-33.2-1": [
+        "punish.01",
+        "prosecute.01",
+        "arrest.01",
+        "try.02",
+        "indict.01",
+        "nab.01",
+        "bust.02",
+        "report.01"
+    ],
+    "gorge-39.6": [
+        "feed.01",
+        "thrive.01",
+        "flourish.01",
+        "exist.01",
+        "survive.01"
+    ],
+    "animal_sounds-38": [
+        "yell.01",
+        "whistle.01",
+        "crow.01",
+        "buzz.01",
+        "bark.01",
+        "hiss.01",
+        "boom.01",
+        "call.10",
+        "wail.01"
+    ],
+    "obtain-13.5.2": [
+        "borrow.01",
+        "grab.01",
+        "recover.02",
+        "snatch.01",
+        "inherit.01",
+        "accumulate.01",
+        "make.05",
+        "accrue.01",
+        "retrieve.01",
+        "accept.01",
+        "seize.01",
+        "receive.01",
+        "regain.01",
+        "collect.01",
+        "hijack.01",
+        "recoup.01",
+        "select.01"
+    ],
+    "obtain-13.5.2-1": [
+        "borrow.01",
+        "acquire.01",
+        "grab.01",
+        "recover.02",
+        "purchase.01",
+        "inherit.01",
+        "accumulate.01",
+        "make.05",
+        "accrue.01",
+        "retrieve.01",
+        "accept.01",
+        "seize.01",
+        "receive.01",
+        "regain.01",
+        "collect.01",
+        "hijack.01",
+        "snatch.01",
+        "recoup.01",
+        "select.01",
+        "obtain.01"
+    ],
+    "want-32.1": [
+        "crave.01",
+        "desire.01",
+        "love.01"
+    ],
+    "want-32.1-1": [
+        "crave.01",
+        "desire.01",
+        "love.01",
+        "enjoy.01"
+    ],
+    "want-32.1-1-1": [
+        "desire.01",
+        "want.01",
+        "crave.01",
+        "need.01",
+        "love.01"
+    ],
+    "adopt-93": [
+        "follow.02",
+        "assume.01",
+        "take.01",
+        "abide.01",
+        "adopt.01"
+    ],
+    "accompany-51.7": [
+        "accompany.01",
+        "lead.01",
+        "conduct.01",
+        "steer.01",
+        "escort.01",
+        "guide.01"
+    ],
+    "avoid-52": [
+        "duck.01",
+        "avoid.01",
+        "circumvent.01",
+        "elude.01",
+        "dodge.01",
+        "forgo.01",
+        "shun.01",
+        "evade.01"
+    ],
+    "classify-29.10": [
+        "separate.01",
+        "code.01",
+        "lump.01",
+        "sort.01",
+        "group.01",
+        "classify.01",
+        "isolate.01"
+    ],
+    "convert-26.6.2": [
+        "turn.01",
+        "get.03",
+        "fall.01",
+        "revert.01",
+        "return.01",
+        "take.01"
+    ],
+    "convert-26.6.2-1": [
+        "take.01",
+        "get.03",
+        "fall.01",
+        "revert.01",
+        "return.01",
+        "turn.01",
+        "shift.01"
+    ],
+    "convert-26.6.2-1-1": [
+        "switch.01",
+        "turn.01",
+        "get.03",
+        "convert.01",
+        "fall.01",
+        "revert.01",
+        "return.01",
+        "take.01"
+    ],
+    "initiate_communication-37.4.2": [
+        "get.01",
+        "reach.02"
+    ],
+    "initiate_communication-37.4.2-1": [
+        "get.01",
+        "ring.04",
+        "call.02",
+        "reach.02"
+    ],
+    "weekend-56": [],
+    "comprehend-87.2": [
+        "misinterpret.01"
+    ],
+    "comprehend-87.2-1": [
+        "follow.02",
+        "misinterpret.01",
+        "comprehend.01",
+        "read.01",
+        "grasp.01"
+    ],
+    "comprehend-87.2-1-1": [
+        "misinterpret.01"
+    ],
+    "comprehend-87.2-1-1-1": [
+        "know.03",
+        "misinterpret.01",
+        "understand.01"
+    ],
+    "relate-86.2": [],
+    "relate-86.2-1": [
+        "touch_on.04",
+        "concern.02",
+        "involve.01"
+    ],
+    "relate-86.2-2": [
+        "pertain.01",
+        "relate.01",
+        "refer.01"
+    ],
+    "other_cos-45.4": [
+        "intensify.01",
+        "balance.01",
+        "age.01",
+        "mobilize.01",
+        "dilute.01",
+        "even_out.01",
+        "sweeten.02",
+        "heat.01",
+        "decrease.01",
+        "double.01",
+        "evaporate.01",
+        "modulate.01",
+        "moderate.01",
+        "sicken.01",
+        "burn.01",
+        "quiet.03",
+        "cool.01",
+        "fade.01",
+        "weaken.01",
+        "blur.01",
+        "empty.01",
+        "wet.01",
+        "tame.01",
+        "rekindle.01",
+        "lengthen.01",
+        "disintegrate.01",
+        "triple.01",
+        "operate.01",
+        "reopen.01",
+        "vary.01",
+        "tighten.01",
+        "clarify.10",
+        "collapse.01",
+        "change.01",
+        "dissipate.01",
+        "modernize.01",
+        "improve.01",
+        "diminish.01",
+        "inflate.01",
+        "worsen.01",
+        "open.01",
+        "soak.01",
+        "overturn.01",
+        "dampen.02",
+        "lessen.01",
+        "tilt.01",
+        "broaden.01",
+        "diffuse.01",
+        "heighten.01",
+        "solidify.01",
+        "energize.01",
+        "condense.01",
+        "reproduce.01",
+        "drain.01",
+        "slow.01",
+        "loosen.01",
+        "clean.01",
+        "clear.01",
+        "thin_out.02",
+        "neutralize.01",
+        "vibrate.01",
+        "contract.01",
+        "sharpen.01",
+        "devalue.01",
+        "slacken.01",
+        "halt.01",
+        "clog.02",
+        "widen.01",
+        "ease.02",
+        "narrow.01",
+        "strengthen.01",
+        "flatten.01",
+        "expand.01",
+        "collect.01",
+        "wake_up.02",
+        "disperse.01",
+        "pop.02",
+        "hasten.01",
+        "flood.01",
+        "divide.02",
+        "compress.01",
+        "level_off.02",
+        "shut.01",
+        "cloud.01",
+        "abate.01",
+        "diversify.01",
+        "tire.01",
+        "shorten.04",
+        "activate.01",
+        "fill.01",
+        "increase.01",
+        "burst.02",
+        "mature.01",
+        "short.03",
+        "quicken.01",
+        "sink.01",
+        "blunt.01",
+        "dissolve.01",
+        "crumble.01",
+        "close.01",
+        "shrink.01",
+        "stabilize.01",
+        "advance.01",
+        "enlarge.01",
+        "grow_up.04",
+        "warm.01",
+        "explode.01",
+        "ignite.01",
+        "amplify.01",
+        "smooth.01",
+        "heal.01",
+        "accelerate.01",
+        "topple.01",
+        "soften.01"
+    ],
+    "other_cos-45.4-1": [
+        "intensify.01",
+        "balance.01",
+        "age.01",
+        "mobilize.01",
+        "dilute.01",
+        "even_out.01",
+        "sweeten.02",
+        "heat.01",
+        "decrease.01",
+        "double.01",
+        "evaporate.01",
+        "melt.01",
+        "freeze.01",
+        "modulate.01",
+        "moderate.01",
+        "sicken.01",
+        "burn.01",
+        "quiet.03",
+        "cool.01",
+        "fade.01",
+        "weaken.01",
+        "blur.01",
+        "empty.01",
+        "wet.01",
+        "tame.01",
+        "rekindle.01",
+        "lengthen.01",
+        "disintegrate.01",
+        "triple.01",
+        "operate.01",
+        "reopen.01",
+        "vary.01",
+        "tighten.01",
+        "clarify.10",
+        "collapse.01",
+        "change.01",
+        "dissipate.01",
+        "modernize.01",
+        "dry.02",
+        "improve.01",
+        "diminish.01",
+        "inflate.01",
+        "worsen.01",
+        "open.01",
+        "soak.01",
+        "overturn.01",
+        "dampen.02",
+        "lessen.01",
+        "tilt.01",
+        "broaden.01",
+        "diffuse.01",
+        "heighten.01",
+        "solidify.01",
+        "energize.01",
+        "condense.01",
+        "reproduce.01",
+        "drain.01",
+        "slow.01",
+        "loosen.01",
+        "clean.01",
+        "clear.01",
+        "thin_out.02",
+        "neutralize.01",
+        "vibrate.01",
+        "contract.01",
+        "sharpen.01",
+        "devalue.01",
+        "slacken.01",
+        "halt.01",
+        "clog.02",
+        "widen.01",
+        "ease.02",
+        "narrow.01",
+        "strengthen.01",
+        "flatten.01",
+        "expand.01",
+        "collect.01",
+        "wake_up.02",
+        "disperse.01",
+        "pop.02",
+        "hasten.01",
+        "flood.01",
+        "set.02",
+        "divide.02",
+        "compress.01",
+        "level_off.02",
+        "shut.01",
+        "cloud.01",
+        "abate.01",
+        "diversify.01",
+        "tire.01",
+        "shorten.04",
+        "activate.01",
+        "fill.01",
+        "increase.01",
+        "burst.02",
+        "mature.01",
+        "quicken.01",
+        "short.03",
+        "sink.01",
+        "blunt.01",
+        "dissolve.01",
+        "crumble.01",
+        "close.01",
+        "shrink.01",
+        "stabilize.01",
+        "advance.01",
+        "enlarge.01",
+        "grow_up.04",
+        "warm.01",
+        "explode.01",
+        "ignite.01",
+        "amplify.01",
+        "smooth.01",
+        "heal.01",
+        "accelerate.01",
+        "topple.01",
+        "soften.01"
+    ],
+    "earn-54.6": [],
+    "escape-51.1": [
+        "cut.01",
+        "get.05"
+    ],
+    "escape-51.1-1": [
+        "arrive.01",
+        "approach.01",
+        "advance.01",
+        "plunge.01",
+        "cut.01",
+        "come.01",
+        "fall.01",
+        "file.03",
+        "return.01",
+        "rise.01",
+        "go.02",
+        "continue.01",
+        "get.05",
+        "tumble.01"
+    ],
+    "escape-51.1-1-1": [
+        "cut.01",
+        "depart.01",
+        "flee.05",
+        "exit.01",
+        "escape.01",
+        "vacate.01",
+        "leave.11",
+        "get.05"
+    ],
+    "escape-51.1-1-2": [
+        "approach.01",
+        "cut.01",
+        "enter.01",
+        "get.05"
+    ],
+    "escape-51.1-1-3": [
+        "climb.02",
+        "cut.01",
+        "ascend.01",
+        "cross.02",
+        "pass.02",
+        "descend.01",
+        "get.05"
+    ],
+    "cut-21.1": [],
+    "cut-21.1-1": [
+        "chop.01",
+        "cut.01",
+        "slash.01",
+        "scratch.02",
+        "clip.01",
+        "rip.01",
+        "slice.01",
+        "hack.01"
+    ],
+    "preparing-26.3": [],
+    "preparing-26.3-1": [
+        "cook.01",
+        "bake.01",
+        "fix.01",
+        "light.04",
+        "clear.01",
+        "mix.01",
+        "brew.01",
+        "invent.01",
+        "blend.01",
+        "cultivate.01",
+        "run.01",
+        "prepare.01",
+        "roll_up.03"
+    ],
+    "preparing-26.3-2": [
+        "fry.01",
+        "wash.01",
+        "boil.01",
+        "pour.01",
+        "set.01",
+        "grill.01"
+    ],
+    "contain-15.4": [
+        "hold.01",
+        "contain.01"
+    ],
+    "accept-77.1": [
+        "accept.01",
+        "encourage.01",
+        "buy.01",
+        "understand.01"
+    ],
+    "give-13.1": [
+        "refund.01",
+        "deal.02",
+        "give.01",
+        "lend.01",
+        "pass.05",
+        "peddle.01",
+        "render.02"
+    ],
+    "give-13.1-1": [
+        "lease.02",
+        "refund.01",
+        "deal.02",
+        "give.01",
+        "lend.01",
+        "sell.01",
+        "rent.02",
+        "pass.05",
+        "peddle.01",
+        "render.02",
+        "hawk.01"
+    ],
+    "leave-51.2": [
+        "abandon.01"
+    ],
+    "leave-51.2-1": [
+        "desert.01",
+        "abandon.01",
+        "leave.11"
+    ],
+    "comprise-107.2": [
+        "comprise.01",
+        "compose.01",
+        "constitute.01",
+        "make_up.07"
+    ],
+    "comprise-107.2-1": [
+        "comprise.01",
+        "compose.01",
+        "contain.01",
+        "constitute.01",
+        "make_up.07",
+        "consist.01"
+    ],
+    "exist-47.1": [
+        "reside.01",
+        "live.01",
+        "thrive.01",
+        "flourish.01",
+        "dwell.01",
+        "stay.01",
+        "lurk.01",
+        "exist.01",
+        "persist.01",
+        "remain.01",
+        "languish.01",
+        "wait.01",
+        "stand.01",
+        "extend.01",
+        "prevail.02",
+        "hold.01",
+        "linger.01",
+        "loom.01"
+    ],
+    "exist-47.1-1": [
+        "reside.01",
+        "live.01",
+        "thrive.01",
+        "flourish.01",
+        "dwell.01",
+        "stay.01",
+        "lurk.01",
+        "exist.01",
+        "persist.01",
+        "remain.01",
+        "languish.01",
+        "survive.01",
+        "wait.01",
+        "stand.01",
+        "endure.01",
+        "extend.01",
+        "prevail.02",
+        "hold.01",
+        "linger.01",
+        "loom.01"
+    ],
+    "confront-98": [
+        "tackle.01",
+        "undertake.01",
+        "confront.01",
+        "face.01",
+        "intercept.01",
+        "move.04",
+        "counter.01",
+        "combat.01",
+        "approach.02",
+        "target.01",
+        "handle.01"
+    ],
+    "differ-23.4": [
+        "vary.01",
+        "diverge.01",
+        "deviate.01",
+        "differ.02"
+    ],
+    "subordinate-95.2.1": [
+        "report.01",
+        "answer.01"
+    ],
+    "break_down-45.8": [
+        "give.01",
+        "fall.01"
+    ],
+    "rehearse-26.8": [
+        "repeat.01"
+    ],
+    "rehearse-26.8-1": [
+        "practice.01",
+        "exercise.01",
+        "repeat.01"
+    ],
+    "tape-22.4": [
+        "seal.01",
+        "weld.01",
+        "pin.01",
+        "tack_down.04",
+        "link.01",
+        "connect.01",
+        "thread.01",
+        "lock.01",
+        "fasten.01",
+        "hook_up.02",
+        "tape.01",
+        "chain.01",
+        "strap.01",
+        "tie.01",
+        "bond.01",
+        "paste.01",
+        "lash.01",
+        "glue.01",
+        "cement.01"
+    ],
+    "tape-22.4-1": [
+        "seal.01",
+        "weld.01",
+        "pin.01",
+        "tack_down.04",
+        "link.01",
+        "connect.01",
+        "thread.01",
+        "lock.01",
+        "fasten.01",
+        "hook_up.02",
+        "tape.01",
+        "chain.01",
+        "strap.01",
+        "tie.01",
+        "bond.01",
+        "paste.01",
+        "lash.01",
+        "glue.01",
+        "cement.01"
+    ],
+    "put_spatial-9.2": [
+        "prop_up.01",
+        "lay.01"
+    ],
+    "put_spatial-9.2-1": [
+        "hang.01",
+        "lay.01",
+        "prop_up.01",
+        "rest.01",
+        "sit.01",
+        "suspend.02",
+        "stand.01"
+    ],
+    "poison-42.2": [
+        "hang.01",
+        "stab.01",
+        "drown.02",
+        "smother.01",
+        "throttle.01",
+        "strangle.01",
+        "shoot.02",
+        "poison.02"
+    ],
+    "settle-36.1.2": [
+        "disagree.01",
+        "compromise.01",
+        "communicate.01",
+        "correspond.01",
+        "concur.01",
+        "collaborate.01",
+        "settle.02",
+        "cooperate.01",
+        "differ.01",
+        "square.01"
+    ],
+    "settle-36.1.2-1": [
+        "disagree.01",
+        "debate.01",
+        "argue.01",
+        "communicate.01",
+        "compromise.01",
+        "correspond.01",
+        "concur.01",
+        "collaborate.01",
+        "settle.02",
+        "cooperate.01",
+        "differ.01",
+        "square.01"
+    ],
+    "terminus-47.9": [
+        "terminate.01",
+        "lead.01",
+        "end.01",
+        "begin.01",
+        "start.01"
+    ],
+    "separate-23.1": [
+        "sever.01"
+    ],
+    "separate-23.1-1": [
+        "divorce.01",
+        "sever.01",
+        "divide.02",
+        "differentiate.01"
+    ],
+    "separate-23.1-2": [
+        "separate.01",
+        "part.01",
+        "disconnect.01",
+        "sever.01"
+    ],
+    "correlate-86.1": [],
+    "urge-58.1": [],
+    "urge-58.1-1": [
+        "invite.01",
+        "lean.01",
+        "push.01",
+        "summon.01",
+        "dare.01",
+        "tempt.01",
+        "call.07",
+        "force.01"
+    ],
+    "urge-58.1-1-1": [
+        "press.01",
+        "prod.01",
+        "urge.01",
+        "lobby.01",
+        "encourage.01",
+        "pressure.01",
+        "ask.02",
+        "admonish.01"
+    ],
+    "marvel-31.3": [
+        "chafe.01",
+        "stew.02",
+        "hurt.01",
+        "anger.01",
+        "mourn.01",
+        "fear.01",
+        "rejoice.01",
+        "fume.01",
+        "cry.02",
+        "react.01",
+        "disapprove.01",
+        "mind.01",
+        "bleed.01",
+        "rage.02",
+        "delight.01",
+        "sicken.01",
+        "feel.01",
+        "bother.02",
+        "suffer.01",
+        "obsess.01",
+        "care.01",
+        "die.01",
+        "fret.01",
+        "approve.01",
+        "puzzle.01",
+        "thrill.01",
+        "worry.02"
+    ],
+    "wish-62": [
+        "imagine.01",
+        "aim.02",
+        "wish.01",
+        "expect.01",
+        "propose.01",
+        "intend.01",
+        "think.01",
+        "plan.01",
+        "dream.01"
+    ],
+    "say-37.7": [
+        "go.23",
+        "continue.02"
+    ],
+    "say-37.7-1": [
+        "voice.01",
+        "utter.01",
+        "insinuate.01",
+        "go.23",
+        "continue.02",
+        "exclaim.01"
+    ],
+    "say-37.7-1-1": [
+        "relate.02",
+        "remark.01",
+        "claim.01",
+        "go.23",
+        "reveal.01",
+        "mention.01",
+        "reiterate.01",
+        "advise.01",
+        "propose.01",
+        "say.01",
+        "announce.01",
+        "repeat.01",
+        "continue.02",
+        "declare.01",
+        "report.01",
+        "articulate.01",
+        "note.01",
+        "convey.01",
+        "observe.02",
+        "recount.01",
+        "proclaim.01",
+        "confess.01",
+        "state.01"
+    ],
+    "say-37.7-1-1-1": [
+        "suggest.01",
+        "go.23",
+        "continue.02"
+    ],
+    "say-37.7-1-2": [
+        "hint.01",
+        "go.23",
+        "continue.02"
+    ],
+    "trifle-105.3": [
+        "play.01",
+        "fiddle.01",
+        "toy.01"
+    ],
+    "throw-17.1": [
+        "cast.01",
+        "discard.01",
+        "drive.02"
+    ],
+    "throw-17.1-1": [
+        "hit.01",
+        "fire.01",
+        "shove.01",
+        "sling.01",
+        "pitch.01",
+        "discard.01",
+        "knock.01",
+        "smash.01",
+        "shoot.06",
+        "slam.02",
+        "drive.02",
+        "fling.01",
+        "pass.05",
+        "hurl.01",
+        "cast.01",
+        "flip.01"
+    ],
+    "throw-17.1-1-1": [
+        "tip.01",
+        "toss.01",
+        "launch.01",
+        "discard.01",
+        "drive.02",
+        "cast.01",
+        "kick.01",
+        "throw.01"
+    ],
+    "consume-66": [
+        "use.01",
+        "consume.01"
+    ],
+    "consume-66-1": [
+        "spend.01",
+        "use.01",
+        "consume.01",
+        "waste.01"
+    ],
+    "braid-41.2.2": [
+        "cut.01",
+        "clip.01",
+        "set.01",
+        "rinse.01",
+        "curl_up.02",
+        "brush.01",
+        "pluck.01"
+    ],
+    "stimulate-59.4": [
+        "jolt.01",
+        "incite.01",
+        "spur.01",
+        "stimulate.01",
+        "prompt.01"
+    ],
+    "instr_communication-37.4.1": [
+        "wire.01",
+        "signal.07",
+        "broadcast.01",
+        "relay.01",
+        "phone.01"
+    ],
+    "declare-29.4": [
+        "confess.01"
+    ],
+    "declare-29.4-1": [
+        "assume.01",
+        "maintain.01",
+        "confess.01"
+    ],
+    "declare-29.4-1-1": [
+        "prove.01",
+        "confess.01"
+    ],
+    "declare-29.4-1-1-1": [
+        "confess.01",
+        "declare.01"
+    ],
+    "declare-29.4-1-1-2": [
+        "confess.01",
+        "find.02",
+        "judge.01"
+    ],
+    "declare-29.4-1-1-3": [
+        "profess.01",
+        "confess.01"
+    ],
+    "declare-29.4-2": [
+        "confess.01",
+        "proclaim.01"
+    ],
+    "rely-70": [
+        "bet.01",
+        "gamble.01",
+        "bank.01",
+        "count.03",
+        "depend.01",
+        "rely.01",
+        "figure.01"
+    ],
+    "begin-55.1": [
+        "proceed.01",
+        "set.01"
+    ],
+    "begin-55.1-1": [
+        "proceed.01",
+        "set.01"
+    ],
+    "begin-55.1-1-1": [
+        "undertake.01",
+        "set.01",
+        "resume.01",
+        "begin.01",
+        "proceed.01",
+        "commence.01",
+        "start.01"
+    ],
+    "put-9.1": [
+        "tack_down.04",
+        "sling.01",
+        "implant.01",
+        "position.01",
+        "arrange.01",
+        "situate.01",
+        "mount.03",
+        "lodge.02"
+    ],
+    "put-9.1-1": [
+        "insert.01",
+        "plant.01",
+        "build.01",
+        "tack_down.04",
+        "sling.01",
+        "implant.01",
+        "bury.01",
+        "position.01",
+        "arrange.01",
+        "deposit.01",
+        "situate.01",
+        "install.01",
+        "park.01",
+        "embed.01",
+        "apply.01",
+        "mount.03",
+        "lodge.02"
+    ],
+    "put-9.1-2": [
+        "tack_down.04",
+        "sling.01",
+        "put.01",
+        "stick.01",
+        "implant.01",
+        "set.01",
+        "position.01",
+        "arrange.01",
+        "situate.01",
+        "place.01",
+        "mount.03",
+        "lodge.02"
+    ],
+    "entity_specific_cos-45.5": [
+        "erode.01",
+        "deteriorate.01",
+        "burn.01",
+        "rust.01",
+        "spoil.01",
+        "subside.01",
+        "swell.01",
+        "decompose.01",
+        "rot.01",
+        "wane.01",
+        "ferment.01"
+    ],
+    "harmonize-22.6": [
+        "go.05"
+    ],
+    "engender-27.1": [
+        "spawn.01",
+        "set.01",
+        "shape.01",
+        "raise.01",
+        "create.01",
+        "produce.01",
+        "bring.01",
+        "generate.01",
+        "return.02"
+    ],
+    "engender-27.1-1": [
+        "spawn.01",
+        "incite.01",
+        "call.02",
+        "provoke.01",
+        "inspire.01",
+        "cause.01",
+        "prompt.01",
+        "stimulate.01",
+        "spark.01",
+        "set.01",
+        "raise.01",
+        "create.01",
+        "shape.01",
+        "stir_up.04",
+        "produce.01",
+        "bring.01",
+        "generate.01",
+        "return.02"
+    ],
+    "assessment-34.1": [
+        "watch.01",
+        "follow.02",
+        "analyze.01",
+        "examine.01",
+        "inspect.01",
+        "consult.01",
+        "scrutinize.01",
+        "feel.01",
+        "check.01",
+        "monitor.01",
+        "evaluate.01",
+        "assess.01",
+        "research.01",
+        "study.01",
+        "audit.01",
+        "scan.01",
+        "try.01",
+        "investigate.01",
+        "test.01",
+        "review.01"
+    ],
+    "manner_speaking-37.3": [
+        "yell.01",
+        "whistle.01",
+        "crow.01",
+        "purr.02",
+        "hiss.01",
+        "smile.01",
+        "chant.01",
+        "call.02",
+        "blare.01",
+        "sing.01",
+        "bark.01",
+        "boom.01",
+        "sigh.01",
+        "murmur.01",
+        "rage.02",
+        "cry.01",
+        "holler.01",
+        "shout.01",
+        "trumpet.01",
+        "scream.01",
+        "grumble.01",
+        "snap.01",
+        "wail.01"
+    ],
+    "bill-54.5": [
+        "bet.01",
+        "bill.01",
+        "spare.01",
+        "tax.01",
+        "fine.01",
+        "save.01",
+        "charge.01"
+    ],
+    "exclude-107.3": [
+        "omit.01"
+    ],
+    "exclude-107.3-1": [
+        "omit.01",
+        "exclude.01",
+        "preclude.01"
+    ],
+    "overstate-37.12": [
+        "tout.01",
+        "magnify.01",
+        "glorify.01",
+        "amplify.01",
+        "overstate.01"
+    ],
+    "disappearance-48.2": [
+        "go.02",
+        "die.01"
+    ],
+    "disappearance-48.2-1": [
+        "expire.01",
+        "die.01",
+        "disappear.01",
+        "go.02",
+        "vanish.01",
+        "lapse.01"
+    ],
+    "empathize-88.2": [
+        "identify.02",
+        "sympathize.01"
+    ],
+    "result-27.2": [],
+    "future_having-13.3": [],
+    "future_having-13.3-1": [
+        "will.01",
+        "guarantee.01",
+        "advance.01",
+        "assign.01",
+        "leave.12",
+        "offer.01",
+        "allocate.01",
+        "extend.02",
+        "promise.01",
+        "issue.01",
+        "cede.01",
+        "award.01",
+        "yield.02",
+        "concede.01",
+        "grant.01",
+        "owe.01"
+    ],
+    "rummage-35.5": [
+        "scratch.04",
+        "listen.01",
+        "look.01",
+        "poke_around.02",
+        "go.02"
+    ],
+    "rummage-35.5-1": [
+        "scratch.04",
+        "listen.01",
+        "look.01",
+        "poke_around.02",
+        "go.02"
+    ],
+    "satisfy-55.7": [
+        "meet.01"
+    ],
+    "fire-10.10": [
+        "dismiss.01",
+        "sack.01",
+        "expel.01",
+        "terminate.02",
+        "oust.01",
+        "remove.01",
+        "fire.02",
+        "drop.01",
+        "suspend.01"
+    ],
+    "run-51.3.2": [
+        "amble.01",
+        "tread.01",
+        "scramble.01",
+        "stumble.01",
+        "clamber.01",
+        "tear.02",
+        "stump.01",
+        "stray.01",
+        "spring.01",
+        "climb.02",
+        "creep.01",
+        "shuffle.02",
+        "zoom.01",
+        "step.01",
+        "charge.02",
+        "streak.01",
+        "hike.01",
+        "crawl.01",
+        "scuttle.02",
+        "stagger.01",
+        "lurch.01"
+    ],
+    "run-51.3.2-1": [
+        "amble.01",
+        "tread.01",
+        "scramble.01",
+        "stumble.01",
+        "ramble.01",
+        "clamber.01",
+        "tear.02",
+        "stump.01",
+        "travel.01",
+        "stray.01",
+        "spring.01",
+        "climb.02",
+        "creep.01",
+        "swim.01",
+        "shuffle.02",
+        "zoom.01",
+        "wander.01",
+        "hop.01",
+        "leap.01",
+        "step.01",
+        "charge.02",
+        "streak.01",
+        "hike.01",
+        "sweep.02",
+        "crawl.01",
+        "scuttle.02",
+        "stagger.01",
+        "lurch.01",
+        "stride.01"
+    ],
+    "run-51.3.2-2": [
+        "skip_off.03",
+        "amble.01",
+        "tread.01",
+        "float.01",
+        "scramble.01",
+        "inch.01",
+        "roll.01",
+        "stumble.01",
+        "gallop.01",
+        "clamber.01",
+        "tear.02",
+        "race.01",
+        "dash_off.03",
+        "stump.01",
+        "hurry.01",
+        "stray.01",
+        "hasten.01",
+        "spring.01",
+        "climb.02",
+        "creep.01",
+        "shuffle.02",
+        "glide.01",
+        "speed_up.02",
+        "trip.01",
+        "zoom.01",
+        "sneak.01",
+        "scuttle.02",
+        "step.01",
+        "charge.02",
+        "streak.01",
+        "drift.01",
+        "hike.01",
+        "bounce.01",
+        "crawl.01",
+        "slide.01",
+        "stagger.01",
+        "lurch.01",
+        "trot.01"
+    ],
+    "run-51.3.2-2-1": [
+        "amble.01",
+        "tread.01",
+        "walk.01",
+        "scramble.01",
+        "rush.01",
+        "stumble.01",
+        "clamber.01",
+        "tear.02",
+        "stump.01",
+        "stray.01",
+        "spring.01",
+        "fly.01",
+        "climb.02",
+        "creep.01",
+        "march.01",
+        "shuffle.02",
+        "zoom.01",
+        "run.02",
+        "jump.01",
+        "step.01",
+        "charge.02",
+        "streak.01",
+        "hike.01",
+        "crawl.01",
+        "scuttle.02",
+        "stagger.01",
+        "lurch.01"
+    ],
+    "swat-18.2": [
+        "chop.01",
+        "stab.01",
+        "scratch.02",
+        "punch.01",
+        "slice.01",
+        "bite.01",
+        "kick.01"
+    ],
+    "require-103": [
+        "take.01"
+    ],
+    "require-103-1": [
+        "demand.01",
+        "require.01",
+        "take.01",
+        "involve.01"
+    ],
+    "require-103-2": [
+        "take.01",
+        "need.01"
+    ],
+    "fit-54.3": [
+        "seat.01",
+        "feed.01",
+        "house.01",
+        "hold.02",
+        "store.01",
+        "serve.01",
+        "contain.01",
+        "fit.06",
+        "take.01",
+        "carry.01"
+    ],
+    "murder-42.1": [
+        "execute.01",
+        "slaughter.01",
+        "eliminate.01",
+        "liquidate.01",
+        "assassinate.01",
+        "murder.01"
+    ],
+    "murder-42.1-1": [
+        "execute.01",
+        "slaughter.01",
+        "eliminate.01",
+        "liquidate.01",
+        "kill.01",
+        "assassinate.01",
+        "murder.01"
+    ],
+    "disassemble-23.3": [
+        "dismantle.01",
+        "disassemble.01",
+        "disconnect.01",
+        "unlock.01",
+        "carve.02",
+        "pare.01",
+        "slice.01",
+        "unleash.01"
+    ],
+    "feeding-39.7": [
+        "feed.01"
+    ],
+    "die-42.4": [],
+    "die-42.4-1": [],
+    "become-109.1": [
+        "come.04",
+        "turn.02",
+        "get.03",
+        "turn_up.15"
+    ],
+    "become-109.1-1": [
+        "go.08",
+        "get.03",
+        "turn_up.15",
+        "fall.01",
+        "turn.02",
+        "come.04",
+        "go.02"
+    ],
+    "become-109.1-1-1": [
+        "get.03",
+        "turn_up.15",
+        "become.01",
+        "turn.02",
+        "end.01",
+        "come.04"
+    ],
+    "exchange-13.6.1": [
+        "change.01",
+        "exchange.01",
+        "trade.01"
+    ],
+    "snooze-40.4": [],
+    "snooze-40.4-1": [
+        "sleep.01"
+    ],
+    "banish-10.2": [
+        "expel.01",
+        "recall.01",
+        "remove.01",
+        "evacuate.01",
+        "banish.01",
+        "deport.01"
+    ],
+    "transfer_mesg-37.1.1": [
+        "demonstrate.01",
+        "recite.01",
+        "justify.01",
+        "relay.01",
+        "explain.01",
+        "narrate.01",
+        "write.01",
+        "sniff.02",
+        "pose.02"
+    ],
+    "transfer_mesg-37.1.1-1": [
+        "dictate.01",
+        "demonstrate.01",
+        "recite.01",
+        "justify.01",
+        "relay.01",
+        "explain.01",
+        "narrate.01",
+        "pose.02",
+        "write.01",
+        "sniff.02",
+        "read.01",
+        "quote.01"
+    ],
+    "transfer_mesg-37.1.1-1-1": [
+        "teach.01",
+        "tell.01",
+        "demonstrate.01",
+        "recite.01",
+        "justify.01",
+        "relay.01",
+        "explain.01",
+        "narrate.01",
+        "write.01",
+        "sniff.02",
+        "show.01",
+        "pose.02"
+    ],
+    "respond-113": [
+        "react.01",
+        "reply.01",
+        "respond.01"
+    ],
+    "hunt-35.1": [
+        "feel.03",
+        "seek.01",
+        "mine.01",
+        "hunt.01",
+        "dig.01",
+        "fish.01"
+    ],
+    "stimulus_subject-30.4": [
+        "sound.01",
+        "look.02",
+        "taste.02",
+        "smell.02",
+        "feel.01"
+    ],
+    "tell-37.2": [
+        "update.01"
+    ],
+    "pay-68": [
+        "spend.01",
+        "waste.01"
+    ],
+    "pay-68-1": [
+        "spend.01",
+        "pay.01",
+        "waste.01",
+        "repay.01"
+    ],
+    "discover-84": [
+        "ascertain.01",
+        "solve.01",
+        "work_out.02",
+        "realize.01",
+        "rationalize.01",
+        "see.01",
+        "discover.01",
+        "find.01",
+        "determine.01",
+        "guess.01"
+    ],
+    "discover-84-1": [
+        "ascertain.01",
+        "solve.01",
+        "work_out.02",
+        "realize.01",
+        "rationalize.01",
+        "see.01",
+        "discover.01",
+        "find.01",
+        "determine.01",
+        "guess.01"
+    ],
+    "discover-84-1-1": [
+        "ascertain.01",
+        "solve.01",
+        "hear.01",
+        "work_out.02",
+        "realize.01",
+        "learn.01",
+        "rationalize.01",
+        "discover.01",
+        "see.01",
+        "study.01",
+        "find.01",
+        "determine.01",
+        "guess.01"
+    ],
+    "chase-51.6": [
+        "follow.02",
+        "pursue.01",
+        "chase.01",
+        "tail.01",
+        "shadow.01",
+        "track.01"
+    ],
+    "interrogate-37.1.3": [
+        "interview.01",
+        "question.01"
+    ],
+    "body_internal_motion-49.1": [
+        "flap.01",
+        "sway.01",
+        "kick.01",
+        "rock.01"
+    ],
+    "chit_chat-37.6": [
+        "confer.01",
+        "joke.01"
+    ],
+    "chit_chat-37.6-1": [
+        "argue.02",
+        "joke.01",
+        "confer.01"
+    ],
+    "put_direction-9.4": [
+        "lower.05",
+        "lift.01",
+        "raise.01",
+        "drive.02",
+        "drop.01"
+    ],
+    "pocket-9.10": [
+        "imprison.01",
+        "house.01",
+        "bank.01",
+        "bottle.01",
+        "string.01",
+        "jail.01",
+        "file.01",
+        "trap.01",
+        "corral.01"
+    ],
+    "pocket-9.10-1": [
+        "imprison.01",
+        "house.01",
+        "ground.01",
+        "dock.01",
+        "bank.01",
+        "bottle.01",
+        "land.01",
+        "string.01",
+        "jail.01",
+        "file.01",
+        "trap.01",
+        "corral.01",
+        "moor.01"
+    ],
+    "deduce-97.2": [
+        "gather.01",
+        "prove.01",
+        "rationalize.01",
+        "infer.01",
+        "conceive.01",
+        "derive.01",
+        "reason.01",
+        "conclude.01"
+    ],
+    "dub-29.3": [
+        "dub.01",
+        "call.01",
+        "rename.01",
+        "name.01",
+        "crown.01",
+        "rule.01",
+        "label.01",
+        "term.01",
+        "pronounce.01"
+    ],
+    "scribble-25.2": [
+        "forge.01",
+        "copy.01",
+        "trace.01",
+        "underline.01",
+        "take.01"
+    ],
+    "scribble-25.2-1": [
+        "copy.01",
+        "forge.01",
+        "draw_up.03",
+        "plot.01",
+        "print.01",
+        "trace.01",
+        "underline.01",
+        "carve.02",
+        "type.01",
+        "write.01",
+        "record.01",
+        "take.01"
+    ],
+    "nonvehicle-51.4.2": [
+        "ride.01"
+    ],
+    "nonvehicle-51.4.2-1": [
+        "cruise.01",
+        "ride.01",
+        "drive.01",
+        "fly.01",
+        "navigate.01",
+        "sail.01"
+    ],
+    "help-72.1": [],
+    "help-72.1-1": [
+        "support.01"
+    ],
+    "help-72.1-1-1": [
+        "aid.01",
+        "help.01",
+        "assist.01"
+    ],
+    "help-72.1-2": [],
+    "consider-29.9": [],
+    "consider-29.9-1": [
+        "deem.01",
+        "rate.01",
+        "reckon.01"
+    ],
+    "consider-29.9-1-1": [
+        "report.01"
+    ],
+    "consider-29.9-1-1-1": [
+        "consider.01"
+    ],
+    "consider-29.9-2": [
+        "suppose.01",
+        "suspect.01",
+        "think.01"
+    ],
+    "exceed-90": [
+        "outweigh.01",
+        "outnumber.01",
+        "outstrip.01",
+        "overcome.01",
+        "top.02",
+        "surpass.01",
+        "transcend.01",
+        "exceed.01"
+    ],
+    "lecture-37.11": [],
+    "lecture-37.11-1": [
+        "preach.01",
+        "remark.01",
+        "lecture.01",
+        "speak.01",
+        "theorize.01",
+        "talk.01",
+        "write.01",
+        "testify.01",
+        "rave.01",
+        "gush.01"
+    ],
+    "lecture-37.11-1-1": [
+        "elaborate.01",
+        "comment.01"
+    ],
+    "lecture-37.11-2": [
+        "dwell.01"
+    ],
+    "hire-13.5.3": [
+        "draft.01",
+        "groom.01",
+        "prepare.02",
+        "enlist.01",
+        "train.01",
+        "employ.01",
+        "hire.01",
+        "take.01",
+        "engage.01",
+        "contract.02",
+        "commission.01",
+        "sign.02"
+    ],
+    "enforce-63": [
+        "impose.01",
+        "enforce.01",
+        "control.01"
+    ],
+    "break-45.1": [
+        "split.01",
+        "snap.05",
+        "smash.01",
+        "shatter.01",
+        "crush.01",
+        "crash.01",
+        "break.01",
+        "crack.02",
+        "rip.01",
+        "tear.01"
+    ],
+    "performance-26.7": [
+        "rap.01",
+        "direct.01",
+        "chant.01",
+        "perform.01",
+        "enact.01",
+        "model.02"
+    ],
+    "performance-26.7-1": [
+        "rap.01",
+        "whistle.01",
+        "direct.01",
+        "play.01",
+        "chant.01",
+        "perform.01",
+        "sing.01",
+        "recite.01",
+        "enact.01",
+        "dance.01",
+        "model.02",
+        "stage.01"
+    ],
+    "debone-10.8": [],
+    "waltz-51.5": [
+        "dance.01",
+        "shuffle.02"
+    ],
+    "cognize-85": [],
+    "supervision-95.2.2": [
+        "direct.01",
+        "supervise.01",
+        "manage.01",
+        "lead.02"
+    ]
+}

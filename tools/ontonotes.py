@@ -6,22 +6,14 @@ so that programs can work with either resource as necessary
 
 import os
 import bs4
-import re
-import sys
 
-from lxml import etree
-
-sys.path.append("C:/Users/Kevin/PycharmProjects/verbnet/api/")
-import verbnet
-
-#VN_RE = r"([1-9]([0-9]+[.-]?)*[0-9]+)"
 VN_RE = r"([1-9][0-9]?[0-9]?([.-][0-9]+)+)"
 
 class OntoNotesParser(object):
     """Parse OntoNotes Sense grouping XML files, and turn them into a list of BeautifulSoup
     objects"""
 
-    def __init__(self, max_count=None, directory=None, vn_version="3.3"):
+    def __init__(self, directory=None):
         """Take all verbnet files, if max_count is used then take the first max_count
         files, if file_list is used, read the filenames from the file."""
         GROUPING_PATH = directory

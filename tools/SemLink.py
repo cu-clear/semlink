@@ -1,5 +1,5 @@
-import sys
 import os
+import json
 
 from nltk.corpus import framenet
 
@@ -8,23 +8,17 @@ import propbank
 import ontonotes
 import annotation
 import vnfn
-
-import json
+import config
 
 import logging
 logging.basicConfig(filename='semlink.log',level=logging.DEBUG)
 
-data_root = "put the location of your resources here"
-
-PB_RELEASE = data_root + "propbank-release-master/data/ontonotes/nw/wsj/"
-ON_RELEASE = data_root + "wsj_on/"
-VN_ANNS = data_root + "annotations/"
-
 def normalize_vnc(vnc):
     return "-".join(vnc.split("-")[1:])
 
+
 class SemLink(object):
-    def __init__(self, filename, version):
+    def __init__(self, filename, vn_path, pb_path, on_path, version):
         self.annotations = {}
         self.version = version
 
@@ -34,9 +28,15 @@ class SemLink(object):
 
         self.vno, self.pbo, self.ono, self.fno, self.vn_pb_jsono, self.vn_fno, self.vn_fn_roleso = None, None, None, None, None, None, None
 
-    def vn(self, version="3.3"):
+        # instantiate lexical resources
+        self.vn(vn_path)
+        self.pb(pb_path)
+        self.on(on_path)
+
+
+    def vn(self, directory=config.VN_RESOURCE_PATH, version="3.3"):
         if not self.vno:
-            self.vno = verbnet.VerbNetParser(version=version)
+            self.vno = verbnet.VerbNetParser(directory=directory, version=version)
         return self.vno
 
     def fn(self):
@@ -44,31 +44,32 @@ class SemLink(object):
             self.fno = framenet
         return self.fno
 
-    def pb(self, directory="C:/Users/Kevin/PycharmProjects/propbank-frames/frames/", version="unified"):
+    def pb(self, directory=config.PB_RESOURCE_PATH, version="unified"):
         if not self.pbo:
             self.pbo = propbank.PropBankParser(directory=directory, version=version)
         return self.pbo
 
-    def on(self, directory="C:/Users/Kevin/PycharmProjects/lexical_resources/sense-inventories"):
+    def on(self, directory=config.ON_RESOURCE_PATH):
         if not self.ono:
             self.ono = ontonotes.OntoNotesParser(directory=directory)
         return self.ono
 
-    def vn_pb_json(self, filename="vn2pb.json"):
+    def external_vn_pb_json(self, filename=config.EXTERNAL_VN2PB_PATH):
         if not self.vn_pb_jsono:
             vn_pb_jsono = json.load(open(filename))
             self.vn_pb_jsono = {normalize_vnc(k): vn_pb_jsono[k] for k in vn_pb_jsono}
         return self.vn_pb_jsono
 
-    def vn_fn(self, filename="C:/Users/Kevin/PycharmProjects/lexical_resources/semlink/vn-fn2.s"):
+    def vn_fn(self, filename=config.VN2FN_PATH):
         if not self.vn_fno:
             self.vn_fno = vnfn.load_mappings(filename)
         return self.vn_fno
 
-    def vn_fn_roles(self, filename="C:/Users/Kevin/PycharmProjects/lexical_resources/semlink/1.2.2c/vn-fn/VN-FNRoleMapping.txt"):
+    def vn_fn_roles(self, filename=config.VN2FN_ROLES_PATH):
         if not self.vn_fn_roleso:
             self.vn_fn_roleso = vnfn.load_element_mappings(mapping_file=filename)
         return self.vn_fn_roleso
+
 
     # Run full check and update - VN member/class okay, matches PB, update to VN-PB
     def update_verbnet_from_propbank(self):
@@ -89,7 +90,7 @@ class SemLink(object):
                 else:
                     logging.info("Match found in PB for missing VN, but didn't have singular option : " + str(ann) + " " + str(roleset))
 
-                    for vn_class in [vnc for vnc in self.vn_pb_json().keys() if ann.pb_roleset in self.vn_pb_json()[vnc]]:
+                    for vn_class in [vnc for vnc in self.external_vn_pb_json().keys() if ann.pb_roleset in self.external_vn_pb_json()[vnc]]:
                         checked_result = annotation.check_vn(vn_class, ann.verb, self.vn(), update=True)
                         if checked_result:
                             poss_vn.append(checked_result)
@@ -141,6 +142,7 @@ class SemLink(object):
                         self.add_on(line)
 
 
+    # Update dependency tags in instances. Great for PB-VN, but VN-FN role mappings seem to be still out of date
     def update_dependencies(self):
         for ann_key in self.annotations:
             ann = self.annotations[ann_key]
@@ -224,7 +226,7 @@ class SemLink(object):
             self.annotations[a.instance].on_group = a.on_group
 
 
-    def write(self, output_file="semlink1.3"):
+    def write(self, output_file="semlink2.0"):
         with open(output_file, "w") as o:
             for a in sorted(self.annotations):
                 o.write(self.annotations[a].writable() + "\n")
@@ -247,26 +249,29 @@ def counts(semlink):
 
 
 def build_semlink():
-    semlink = SemLink("C:/Users/Kevin/PycharmProjects/lexical_resources/semlink/1.3 instances/auto_updated_from_1.2.2c", version="1.2")
-    print ("building semlink...")
-    counts(semlink)
+    print ("building old semlink...")
+    semlink = SemLink(config.OLD_VERSION_PATH, vn_path=config.VN_RESOURCE_PATH, pb_path=config.PB_RESOURCE_PATH, on_path=config.ON_RESOURCE_PATH, version="2.0")
 
+    # The following steps add instances based on other annotation projects
+    # VN and ON projects cannot be released due to licensing; PB release is available via their GitHub
+    '''
     print("updating from vn anns...")
-    semlink.update_verbnet_from_annotations(VN_ANNS)
+    semlink.update_verbnet_from_annotations(config.VN_ANNS_PATH)
     print ("updating from pb release...")
-    semlink.update_propbank_from_release(PB_RELEASE)
-    counts(semlink)
+    semlink.update_propbank_from_release(config.PB_RELEASE_PATH)
     print ("updating from on release...")
-    semlink.update_ontonotes_from_release(ON_RELEASE)
+    semlink.update_ontonotes_from_release(config.ON_RELEASE_PATH)
+    '''
+
     print ("updating vn from pb...")
     semlink.update_verbnet_from_propbank()
     print ("updating from vn-fn mappings...")
     semlink.update_framenet_from_mappings()
-
     print ("updating dependency information from pb-vn-fn...")
     semlink.update_dependencies()
 
-    semlink.write()
+    semlink.write(output_file="test_semlink")
+
 
 if __name__ == "__main__":
     build_semlink()

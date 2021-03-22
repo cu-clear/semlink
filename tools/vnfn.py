@@ -1,13 +1,10 @@
 from nltk.corpus import framenet
 from lxml import etree
 import datetime
-import sys
-
-local_verbnet_api_path = "C:/Users/Kevin/PycharmProjects/verbnet/api/"
-sys.path.append(local_verbnet_api_path)
 import verbnet
+import config
 
-VN_LOC = "C:/Users/Kevin/PycharmProjects/lexical_resources/verbnet3.3/"
+VN_LOC = config.VN_RESOURCE_PATH
 
 vn = verbnet.VerbNetParser(directory=VN_LOC)
 possible_classes = {"-".join(c.split("-")[1:]): [m.name for m in vn.verb_classes_dict[c].members] for c in
@@ -121,8 +118,8 @@ def write_mappings(mappings, output_file):
 
 
 def combine_old_and_fixed():
-    old_maps = load_mappings("C:/Users/Kevin/PycharmProjects/lexical_resources/semlink/vn-fn.s")
-    new_maps = load_mappings("C:/Users/Kevin/PycharmProjects/lexical_resources/semlink/fixed/all_fixed")
+    old_maps = load_mappings(config.OLD_VN_FN_PATH)
+    new_maps = load_mappings(config.FIXED_VN_FN_PATH)
     old_maps = {m for m in old_maps if not m.errors}
     for m in new_maps:
         if m in old_maps:
@@ -132,7 +129,7 @@ def combine_old_and_fixed():
 
 
 def test():
-    load_element_mappings("C:/Users/Kevin/PycharmProjects/lexical_resources/semlink/1.2.2c/vn-fn/VN-FNRoleMapping.txt")
+    load_element_mappings(config.ROLE_MAPPING_PATH)
     return
 
 

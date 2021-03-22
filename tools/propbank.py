@@ -7,27 +7,22 @@ so that programs can work with either resource as necessary
 import os
 import bs4
 import re
-import sys
 import json
-
-from lxml import etree
-
-sys.path.append("../../verbnet/api")
+import config
 import verbnet
 
-#VN_RE = r"([1-9]([0-9]+[.-]?)*[0-9]+)"
 VN_RE = r"([1-9][0-9]?[0-9]?([.-][0-9]+)+)"
 
 class PropBankParser(object):
     """Parse PropBank XML files, and turn them into a list of BeautifulSoup
     objects"""
 
-    def __init__(self, max_count=None, directory=None, version="unified"):
+    def __init__(self, directory=None, version="unified"):
         PROPBANK_PATH = directory
         fnames = [f for f in os.listdir(PROPBANK_PATH) if f.endswith(".xml")]
         self.filenames = [os.path.join(PROPBANK_PATH, fname) for fname in fnames]
         self.version = version
-        self.vn2pb = json.load(open("../mappings/vn2pb.json"))
+        self.vn2pb = json.load(open(config.EXTERNAL_VN2PB_PATH))
         self.pb2vn = {}
         for key in self.vn2pb:
             for value in self.vn2pb[key]:
@@ -154,8 +149,8 @@ class PropBankRoleset(AbstractXML):
 
 
 if __name__ == "__main__":
-    vn = verbnet.VerbNetParser(directory="../lexical_resources/verbnet-master/verbnet-master/verbnet3.4/")
-    pb = PropBankParser(directory="../lexical_resources/propbank-frames-master/frames/")
+    vn = verbnet.VerbNetParser(directory=config.VN_RESOURCE_PATH)
+    pb = PropBankParser(directory=config.PB_RESOURCE_PATH)
 
     res = pb.get_pb_vn_mappings(vn)
-    json.dump(res, open("../mappings/pb-vn3.4.json", "w"))
+    #json.dump(res, open("../other_resources/pb-vn.json", "w"))
