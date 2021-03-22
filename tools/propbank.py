@@ -136,7 +136,11 @@ class PropBankRoleset(AbstractXML):
                 rms[role_number][vncls] = vntheta
         return rms
 
+
     def parse_extra_vnc(self):
+        """
+        Accounts for cases where the PB file doesn't explicitly map to VN, but the class is in the roles or the notes
+        """
         try:
             vnc_cands = set()
             for note in self.soup.find_all("note"):
@@ -153,4 +157,4 @@ if __name__ == "__main__":
     pb = PropBankParser(directory=config.PB_RESOURCE_PATH)
 
     res = pb.get_pb_vn_mappings(vn)
-    #json.dump(res, open("../other_resources/pb-vn.json", "w"))
+    #json.dump(res, open("../other_resources/pb-vn2.json", "w"))

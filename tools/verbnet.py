@@ -129,8 +129,7 @@ class VerbNetParser(object):
         if vn_class in self.verb_classes_numerical_dict:
             if verb in [m.name for m in self.verb_classes_numerical_dict[vn_class].members]:
                 return vn_class
-
-        if vn_class not in self.verb_classes_numerical_dict:
+        else:
             if vn_class.split("-")[0] in self.verb_classes_numerical_dict:
                 vn_class = vn_class.split("-")[0]
             elif vn_class.split(".")[0] in self.verb_classes_numerical_dict:

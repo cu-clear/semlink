@@ -14,13 +14,16 @@ ON_RESOURCE_PATH = resource_root + ""
 # VN Anns fall under license - we are looking into solutions for releasing
 ON_ANNS_PATH = other_root + ""
 
-VN_RESOURCE_PATH = resource_root + "verbnet-master/"
+VN_RESOURCE_PATH = resource_root + "verbnet-master/verbnet-master/verbnet3.4/"
 
 # VN Anns fall under a variety of licenses - we are looking into solutions for releasing
 VN_ANNS_PATH = other_root + ""
 
 OLD_VERSION_PATH = other_root + "1.2.2c.okay"
 EXTERNAL_VN2PB_PATH = other_root + "external_vn2pb.json"
+
+
+OLD_VN2FN_PATH = other_root + "vn-fn.s"
 VN2FN_PATH = other_root + "vn-fn2.s"
 
 # Please note the roles file is extremely out of date. Updating is underway

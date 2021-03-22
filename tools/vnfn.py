@@ -1,6 +1,8 @@
 from nltk.corpus import framenet
 from lxml import etree
 import datetime
+import json
+
 import verbnet
 import config
 
@@ -107,31 +109,34 @@ def load_element_mappings(mapping_file, to_dict=True):
     return mappings
 
 
-def write_mappings(mappings, output_file):
-    root = etree.Element('verbnet-framenet_MappingData', attrib={"date": datetime.datetime.strftime("%d:%M%:%Y"), "versionID":"vn3.3"})
+def write_mappings(mappings, output_file, version="sl2", out_format="json"):
+    if out_format == "json":
+        json.dump(mappings, open(output_file, "w"))
+    else:
+        root = etree.Element('verbnet-framenet_MappingData', attrib={"date": str(datetime.datetime.now()), "versionID":version})
 
-    for m in sorted(list(mappings)):
-        root.append(m.as_xml())
-    out_str = etree.tostring(root, pretty_print=True)
-    with open(output_file, 'wb') as output:
-        output.write(out_str)
+        for m in sorted(list(mappings)):
+            print (m)
+            root.append(m.as_xml())
+        out_str = etree.tostring(root, pretty_print=True)
+        with open(output_file, 'wb') as output:
+            output.write(out_str)
 
 
-def combine_old_and_fixed():
-    old_maps = load_mappings(config.OLD_VN_FN_PATH)
-    new_maps = load_mappings(config.FIXED_VN_FN_PATH)
+def combine_old_and_fixed(output_file):
+    old_maps = load_mappings(config.OLD_VN2FN_PATH)
+    new_maps = load_mappings(config.FIXED_VN2FN_PATH)
     old_maps = {m for m in old_maps if not m.errors}
     for m in new_maps:
         if m in old_maps:
             old_maps.remove(m)
         old_maps.add(m)
-    write_mappings(old_maps, "vn-fn2.s")
+    write_mappings(old_maps, output_file)
 
 
 def test():
-    load_element_mappings(config.ROLE_MAPPING_PATH)
-    return
-
+    m = load_mappings(config.VN2FN_PATH, as_dict=True)
+    write_mappings(m, "../other_resources/vn-fn2.json", "json")
 
 if __name__ == "__main__":
     test()
