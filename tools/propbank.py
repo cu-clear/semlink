@@ -51,6 +51,7 @@ class PropBankParser(object):
         vn_members = [member.name for member in verbnet.get_members()]
         res = {}
         for roleset in self.rolesets:
+#            print (self.rolesets[roleset].role_mappings)
             if not self.rolesets[roleset].vnc:
                 if roleset in self.pb2vn:
                     print("roleset found in mapping file;;" + roleset + str(self.pb2vn[roleset]))
@@ -62,12 +63,15 @@ class PropBankParser(object):
                 if not new_c:
                     print ("class not found;;" + roleset + ";;" + vnc)
                 elif new_c == vnc:
-                    res[roleset] = vnc
+                    res[roleset] = {"vn_class":vnc}
                     print ("class is good;;" + roleset + ";;" + vnc)
                 else:
-                    res[roleset] = new_c
+                    res[roleset] = {"vn_class":vnc}
                     print ("class/member found, update;;" + roleset + ";;" + vnc + ";;" + new_c)
-
+                if roleset in res:
+                    for arg in self.rolesets[roleset].role_mappings:
+                        if res[roleset]["vn_class"] in self.rolesets[roleset].role_mappings[arg]:
+                            res[roleset][arg] = self.rolesets[roleset].role_mappings[arg][res[roleset]["vn_class"]]
         return res
 
 
@@ -157,4 +161,6 @@ if __name__ == "__main__":
     pb = PropBankParser(directory=config.PB_RESOURCE_PATH)
 
     res = pb.get_pb_vn_mappings(vn)
-    #json.dump(res, open("../other_resources/pb-vn2.json", "w"))
+    #for r in res:
+    #    print (r, res[r])
+    json.dump(res, open("../instances/pb-vn2.json", "w"))
