@@ -42,11 +42,11 @@ verb, roleset = "shake", "01"
 vn_mappings = pb_vn_mappings[sense + "." + verb]
 ```
 
-This yields a list of dictionaries containing the "vnclass" and argument mappings "args"
+This yields a dictionary keyed by verb sense for all the VN classes that map to that particular roleset.
 
 ```python
-for vn_mapping in vn_mappings:
-    vn_class, arg_mappings = vn_mapping["vnclass"], vn_mappings["args"]
+for vn_class_number in vn_mappings:
+    arg_mappings = vn_mappings[vn_class_number]
 ```
 
 ## Using VN-FN mappings
@@ -64,7 +64,7 @@ We don't include direct links from PB to FN, but they can be retrieved through V
     vn_mapping = pb_vn_mappings["abduct.01"]    
 
     # Here we just grab the first sense
-    vn_class = vn_mapping["vnclass"][0]
+    vn_class = vn_mapping[list(vn_mapping.keys())[0]]
 
     # From VN, abduct.01 maps to VerbNet class 10.5
     fn_mapping = vn_fn_mappings[vn_class + "-" + verb]
@@ -105,3 +105,18 @@ python SemLink.py
 
 ## Other use cases
 Please feel free to leave an issue on the Github if you have other use cases you'd like to see. 
+
+## Citing
+If you use SemLink in your work, please cite our IWCS paper:
+```
+@inproceedings{stowe-2021,
+    title = "SemLink 2.0: Chasing Lexical Resources",
+    author = "Stowe, Kevin and Preciado, Jenette and Conger, Kathryn, and Brown, Susan Windisch and Kazeminejad, Ghazaleh and Palmer, Martha",
+    booktitle = "30th Annual Meeting of the Association for Computational Linguistics",
+    year = "2021",
+    address = "Gronigen, Netherlands",
+    publisher = "Association for Computational Linguistics",
+    url = "https://iwcs2021.github.io/proceedings/iwcs/pdf/2021.iwcs-1.21.pdf",
+    pages = "222--227",
+}
+```
