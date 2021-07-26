@@ -51,7 +51,7 @@ class PropBankParser(object):
         vn_members = [member.name for member in verbnet.get_members()]
         res = {}
         for roleset in self.rolesets:
-#            print (self.rolesets[roleset].role_mappings)
+            res[roleset] = {}
             if not self.rolesets[roleset].vnc:
                 if roleset in self.pb2vn:
                     print("roleset found in mapping file;;" + roleset + str(self.pb2vn[roleset]))
@@ -63,17 +63,17 @@ class PropBankParser(object):
                 if not new_c:
                     print ("class not found;;" + roleset + ";;" + vnc)
                 elif new_c == vnc:
-                    res[roleset] = {"vn_class":vnc}
+                    res[roleset][vnc] = {}
                     print ("class is good;;" + roleset + ";;" + vnc)
                 else:
-                    res[roleset] = {"vn_class":vnc}
+                    res[roleset][vnc] = {}
                     print ("class/member found, update;;" + roleset + ";;" + vnc + ";;" + new_c)
-                if roleset in res:
-                    for arg in self.rolesets[roleset].role_mappings:
-                        if res[roleset]["vn_class"] in self.rolesets[roleset].role_mappings[arg]:
-                            res[roleset][arg] = self.rolesets[roleset].role_mappings[arg][res[roleset]["vn_class"]]
+            if len(res[roleset]):
+                for arg in self.rolesets[roleset].role_mappings:
+                    for vnc in res[roleset]:
+                        if vnc in self.rolesets[roleset].role_mappings[arg]:
+                            res[roleset][vnc][arg] = self.rolesets[roleset].role_mappings[arg][vnc]
         return res
-
 
     def write_pb_vn_mappings(self, verbnet):
         mapping_dict = self.get_pb_vn_mappings(verbnet)
