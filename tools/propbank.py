@@ -66,7 +66,7 @@ class PropBankParser(object):
                     res[roleset][vnc] = {}
                     print ("class is good;;" + roleset + ";;" + vnc)
                 else:
-                    res[roleset][vnc] = {}
+                    res[roleset][new_c] = {}
                     print ("class/member found, update;;" + roleset + ";;" + vnc + ";;" + new_c)
             if len(res[roleset]):
                 for arg in self.rolesets[roleset].role_mappings:
@@ -156,11 +156,23 @@ class PropBankRoleset(AbstractXML):
             return
 
 
-if __name__ == "__main__":
+def test_vn_compatability(vn_path=config.VN_RESOURCE_PATH, mappings_path="../instances/pb-vn2.json"):
+    vn = verbnet.VerbNetParser(directory=vn_path)
+    with open(mappings_path) as f:
+        pb2vn = json.load(f)
+
+    verbnet_classes = set(vn.verb_classes_numerical_dict)
+    semlink_classes = {vncls for pbroleset, vnclasses in pb2vn.items() for vncls in vnclasses}
+    print ("classes in semlink mapping but not vn version: " + str(len(semlink_classes-verbnet_classes)))
+
+
+def generate(vn_path=config.VN_RESOURCE_PATH, pb_path=config.PB_RESOURCE_PATH):
     vn = verbnet.VerbNetParser(directory=config.VN_RESOURCE_PATH)
     pb = PropBankParser(directory=config.PB_RESOURCE_PATH)
 
     res = pb.get_pb_vn_mappings(vn)
-    #for r in res:
-    #    print (r, res[r])
     json.dump(res, open("../instances/pb-vn2.json", "w"))
+
+
+if __name__ == "__main__":
+    test_vn_compatability()
