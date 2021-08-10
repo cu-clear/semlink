@@ -73,6 +73,8 @@ class PropBankParser(object):
                     for vnc in res[roleset]:
                         if vnc in self.rolesets[roleset].role_mappings[arg]:
                             res[roleset][vnc][arg] = self.rolesets[roleset].role_mappings[arg][vnc]
+            if res[roleset] == {}:
+                del res[roleset]
         return res
 
     def write_pb_vn_mappings(self, verbnet):
@@ -167,12 +169,12 @@ def test_vn_compatability(vn_path=config.VN_RESOURCE_PATH, mappings_path="../ins
 
 
 def generate(vn_path=config.VN_RESOURCE_PATH, pb_path=config.PB_RESOURCE_PATH):
-    vn = verbnet.VerbNetParser(directory=config.VN_RESOURCE_PATH)
-    pb = PropBankParser(directory=config.PB_RESOURCE_PATH)
+    vn = verbnet.VerbNetParser(directory=vn_path)
+    pb = PropBankParser(directory=pb_path)
 
     res = pb.get_pb_vn_mappings(vn)
     json.dump(res, open("../instances/pb-vn2.json", "w"))
 
 
 if __name__ == "__main__":
-    test_vn_compatability()
+    generate()
