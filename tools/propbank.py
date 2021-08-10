@@ -13,6 +13,7 @@ import verbnet
 
 VN_RE = r"([1-9][0-9]?[0-9]?([.-][0-9]+)+)"
 
+
 class PropBankParser(object):
     """Parse PropBank XML files, and turn them into a list of BeautifulSoup
     objects"""
@@ -50,6 +51,8 @@ class PropBankParser(object):
     def get_pb_vn_mappings(self, verbnet):
         vn_members = [member.name for member in verbnet.get_members()]
         res = {}
+
+        # Initial population of rolesets
         for roleset in self.rolesets:
             res[roleset] = {}
             if not self.rolesets[roleset].vnc:
@@ -73,13 +76,27 @@ class PropBankParser(object):
                     for vnc in res[roleset]:
                         if vnc in self.rolesets[roleset].role_mappings[arg]:
                             res[roleset][vnc][arg] = self.rolesets[roleset].role_mappings[arg][vnc]
-            if res[roleset] == {}:
-                del res[roleset]
+
+        # Filling in role mappings from identical roleset mappings
+        # Implements the assumption that if two PB rolesets for the same verb map to the same class,
+        # their role mappings will also be identical
+        for roleset in res:
+            for roleset2 in res:
+                if roleset.split(".")[0] == roleset2.split(".")[0]:
+                    for mapping in res[roleset]:
+                        if mapping in res[roleset2]:
+                            for arg in res[roleset][mapping]:
+                                res[roleset2][mapping][arg] = res[roleset][mapping][arg]
+
+        # Removing empty mappings
+        res = {r:res[r] for r in res if res[r] != {}}
+
         return res
 
     def write_pb_vn_mappings(self, verbnet):
         mapping_dict = self.get_pb_vn_mappings(verbnet)
         print (mapping_dict)
+
 
 class AbstractXML(object):
     """Abstract class to be inherited by other classes that share the same
@@ -142,7 +159,6 @@ class PropBankRoleset(AbstractXML):
                 rms[role_number][vncls] = vntheta
         return rms
 
-
     def parse_extra_vnc(self):
         """
         Accounts for cases where the PB file doesn't explicitly map to VN, but the class is in the roles or the notes
@@ -177,4 +193,4 @@ def generate(vn_path=config.VN_RESOURCE_PATH, pb_path=config.PB_RESOURCE_PATH):
 
 
 if __name__ == "__main__":
-    generate()
+    test_vn_compatability()
