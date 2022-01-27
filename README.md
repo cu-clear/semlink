@@ -64,7 +64,7 @@ We don't include direct links from PB to FN, but they can be retrieved through V
     vn_mapping = pb_vn_mappings["abduct.01"]    
 
     # Here we just grab the first sense
-    vn_class = vn_mapping[list(vn_mapping.keys())[0]]
+    vn_class = list(vn_mapping.keys())[0]
 
     # From VN, abduct.01 maps to VerbNet class 10.5
     fn_mapping = vn_fn_mappings[vn_class + "-" + verb]
@@ -72,6 +72,7 @@ We don't include direct links from PB to FN, but they can be retrieved through V
     print (fn_mapping)
     # And from FN we get the Frame "kidnapping"
 ```
+
 
 ## Role to Role Mappings
 Moving from PB to VN roles can be done through the pb-vn2.json
